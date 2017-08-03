@@ -16,22 +16,4 @@
             "all": false
         }
     },
-    "plugins": [
-        "ga",
-        "anchors",
-    ],
-
-    "pdf": {
-        "pageNumbers": true,
-        "fontSize": 12,
-        "paperSize": "a4",
-        "margin": {
-            "right": 45,
-            "left": 45,
-            "top": 36,
-            "bottom": 36
-        },
-        "headerTemplate": "_TITLE_",
-        "footerTemplate": "_SECTION_"
-    },
 }
