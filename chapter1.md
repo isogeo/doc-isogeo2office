@@ -1,7 +1,7 @@
 # Prérequis
 
 * au moins un groupe de travail Isogeo payant avec des données partagées à l'application isogeo2office ;
-* le module standard OpenCatalog
+* le module standard OpenCatalog.
 
 ## Environnement technique
 
