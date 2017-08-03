@@ -7,7 +7,6 @@
 
 ## Installation et configuration
 
-* [Partager depuis Isogeo](configuration/partager-depuis-isogeo.md)
 * [Installation simple](configuration/installation-simple.md)
 * [Installation avancée](configuration/installation-avancee.md)
 * [Configuration](configuration/configuration-manuelle.md)
