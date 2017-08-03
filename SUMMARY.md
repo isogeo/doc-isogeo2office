@@ -5,14 +5,16 @@
 * [Introduction](README.md)
 * [Prérequis](chapter1.md)
 
-## Configuration
+## Installation et configuration
 
-* Partager depuis Isogeo
-* Configuration manuelle
+* [Partager depuis Isogeo](configuration/partager-depuis-isogeo.md)
+* [Installation simple](configuration/installation-simple.md)
+* [Installation avancée](configuration/installation-avancee.md)
+* [Configuration](configuration/configuration-manuelle.md)
 
 ## Exporter
 
-* Export Excel
-* Export Word
-* Export XML
+* [Export Excel](exporter/export-excel.md)
+* [Export Word](exporter/export-word.md)
+* [Export XML](exporter/export-xml.md)
 
