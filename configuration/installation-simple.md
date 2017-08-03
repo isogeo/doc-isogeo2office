@@ -1,4 +1,0 @@
-# Installation de l'exécutable
-
-
-

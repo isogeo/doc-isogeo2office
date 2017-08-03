@@ -1,5 +1,6 @@
 {
     "title": null,
+    "language": fr,
     "description": null,
     "isbn": null,
     "links": {
@@ -18,22 +19,8 @@
     "plugins": [
         "ga",
         "anchors",
-        "customtheme"
     ],
-    "pluginsConfig": {
-        "fontSettings": {
-            "theme": "white",
-            "family": "sans"
-        },
-        "ga": {
-            "token": "UA-22345848-2"
-        },
-        "customtheme": {
-            "css": [
-                "_styles/custom.css"
-            ]
-        }
-    },
+
     "pdf": {
         "pageNumbers": true,
         "fontSize": 12,
@@ -47,11 +34,4 @@
         "headerTemplate": "_TITLE_",
         "footerTemplate": "_SECTION_"
     },
-    "styles": {
-        "custom": "styles/custom.css"
-    },
-    "variables": {
-        "version": "2.17.0-52",
-        "author": "Isogeo"
-    }
 }
