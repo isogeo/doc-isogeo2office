@@ -109,13 +109,19 @@ _Type : "tableau"_
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
-| {% raw %} {{ varFieldsCount }} {% endraw %} | Nombre de champs attributaires | Valeur "plate" |
-| {% raw %} {{ varFields }} {% endraw %} | Tableau des attributs | |
-| {% raw %} {% for field in varFields %} [...] {% endfor %} {% endraw %} | Boucle sur les attributs| |
-| {% raw %} {{ field.name }} {% endraw %} | Nom de l'attribut | |
-| {% raw %} {{ field.alias }} {% endraw %} | Alias | |
-| {% raw %} {{ field.dataType }} {% endraw %} | Type | |
-| {% raw %} {{ field.description }} {% endraw %} | Description | |
+| {% raw %} {{ varCGUS }} {% endraw %} | Tableau des conditions | |
+| {% raw %} {% for cgu in varCGUS %} [...] {% endfor %} {% endraw %} | Boucle sur les conditions (exemple) | |
+| {% raw %} {{ cgu.name }} {% endraw %} | Nom | |
+| {% raw %} {{ cgu.content }} {% endraw %} | Contenu | |
+| {% raw %} {{ cgu.link }} {% endraw %} | URL | |
+| {% raw %} {{ cgu.description }} {% endraw %} | Description | |
+| {% raw %} {{ varLimitations }} {% endraw %} | Tableau des limitations | |
+| {% raw %} {% for limitation in varLimitations %} [...] {% endfor %} {% endraw %} | Boucle sur les limitations (exemple) | |
+| {% raw %} {{ limitation.type }} {% endraw %} | Type | |
+| {% raw %} {{ limitation.restriction }} {% endraw %} | Restriction | |
+| {% raw %} {{ limitation.inspire }} {% endraw %} | Article INSPIRE | |
+| {% raw %} {{ limitation.description }} {% endraw %} | Description | |
+| {% raw %} {{ limitation.content }} {% endraw %} | Contenu | |
 
 ---
 
