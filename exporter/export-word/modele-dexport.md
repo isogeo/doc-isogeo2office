@@ -27,7 +27,7 @@ Voici le détail des variables avec la valeur correspondante qui peut être de 2
 
 > Attention, toutes les varaibles ne sont pas présentes dans tous les types de métadonnées \(exemple : les attributs pour les rasters\). Consulter [la correspondance sur l'aide de la plateforme](http://help.isogeo.com/fr/features/documentation/index.html).
 
-### Etiquettes
+### Étiquettes
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
@@ -53,6 +53,8 @@ Voici le détail des variables avec la valeur correspondante qui peut être de 2
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
+| {% raw %} {{ varCollectContext }} {% endraw %} | Contexte de collecte |  |
+| {% raw %} {{ varCollectMethod }} {% endraw %} | Méthode de collecte |  |
 | {% raw %} {{ varDataDtCrea }} {% endraw %} | Date de création de la donnée |  |
 | {% raw %} {{ varDataDtUpda }} {% endraw %} | Date de dernière modification de la donnée |  |
 | {% raw %} {{ varDataDtPubl }} {% endraw %} | Date de publication de la donnée |  |
@@ -62,16 +64,12 @@ Voici le détail des variables avec la valeur correspondante qui peut être de 2
 
 ---
 
-### Evénements sur la donnée
+### Événements de modification sur la donnée
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
 | {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
 | {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
 
 ---
 
@@ -79,12 +77,15 @@ Voici le détail des variables avec la valeur correspondante qui peut être de 2
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
-| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
-| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| {% raw %} {{ varNameTech }} {% endraw %} | Nom du fichier ou de la table |  |
+| {% raw %} {{ varType }} {% endraw %} | Type de donnée |  |
+| {% raw %} {{ varGeometry }} {% endraw %} | Type de géométrie |  |
+| {% raw %} {{ varFormat }} {% endraw %} | Format et version |  |
+| {% raw %} {{ varObjectsCount }} {% endraw %} | Format et version |  |
+| {% raw %} {{ varSRS }} {% endraw %} | Système de coordonnées |  |
+| {% raw %} {{ varScale }} {% endraw %} | Echelle |  |
+| {% raw %} {{ varResolution }} {% endraw %} | Résolution |  |
+| {% raw %} {{ varTopologyInfo }} {% endraw %} | Topologie |  |
 
 ---
 
@@ -94,10 +95,6 @@ Voici le détail des variables avec la valeur correspondante qui peut être de 2
 | :------: | :---------------------------- | :------------------------ |
 | {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
 | {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
 
 
 ---

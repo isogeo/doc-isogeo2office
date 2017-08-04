@@ -30,7 +30,3 @@ Cette extension étant tributaire des architectures où elle est déployée, ell
 
 Le client est cependant libre d’en modifier le code source à condition d’en reverser les modifications au dépôt principal \(licence GPL3\).
 
----
-
-Documentation générée avec {{ book.version }}, mise à jour le {{ file.mtime }}.
-
