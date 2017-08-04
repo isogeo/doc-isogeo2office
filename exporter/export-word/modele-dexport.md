@@ -103,6 +103,25 @@ Exemple dans le modèle Isogeo :
 
 ---
 
+### Spécifications
+
+_Type : "tableau"_
+
+| Variable | Champ ou valeur correspondant | Commentaires / précisions |
+| :------: | :---------------------------- | :------------------------ |
+| {% raw %} {{ varSpecifications }} {% endraw %} | Tableau des spécifications | |
+| {% raw %} {% for spec in varFields %} [...] {% endfor %} {% endraw %} | Boucle sur les spécifications (exemple) | |
+| {% raw %} {{ spec.name }} {% endraw %} | Nom | |
+| {% raw %} {{ spec.date }} {% endraw %} | Date | |
+| {% raw %} {{ spec.conformity }} {% endraw %} | Conformité | |
+| {% raw %} {{ spec.link }} {% endraw %} | URL | |
+
+
+Exemple dans le modèle Isogeo :
+![](/assets/word_syntax_feature-attributes.png)
+
+---
+
 ### Conditions de diffusion et d'utilisation
 
 _Type : "tableau"_
