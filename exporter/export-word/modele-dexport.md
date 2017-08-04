@@ -72,13 +72,12 @@ _Type : "tableau"_
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
-| {% raw %} {{ varEventsCount }} {% endraw %} | Nombre de champs attributaires | Valeur "plate" |
+| {% raw %} {{ varEventsCount }} {% endraw %} | Nombre d'événements | Valeur "plate" |
 | {% raw %} {{ varEvents }} {% endraw %} | Tableau des événements | |
-| {% raw %} {% for event in varEvents %} [...] {% endfor %} {% endraw %} | Boucle sur les attributs (exemple) | |
-| {% raw %} {{ field.name }} {% endraw %} | Nom de l'attribut | |
-| {% raw %} {{ field.alias }} {% endraw %} | Alias | |
-| {% raw %} {{ field.dataType }} {% endraw %} | Type | |
-| {% raw %} {{ field.description }} {% endraw %} | Description | |
+| {% raw %} {% for event in varEvents %} [...] {% endfor %} {% endraw %} | Boucle sur chaque événement (exemple) | |
+| {% raw %} {{ event.date }} {% endraw %} | Date | |
+| {% raw %} {{ event.kind}} {% endraw %} | Type | |
+| {% raw %} {{ event.description }} {% endraw %} | Description | |
 
 ---
 
