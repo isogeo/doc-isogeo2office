@@ -22,48 +22,109 @@ Voici le détail des variables avec la valeur correspondante qui peut être de 2
 ### Etiquettes
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
-| :--- | :--- | :--- |
+| :------- | :---------------------------- | :------------------------ |
 | {% raw %} {{ varOwner }} {% endraw %} | Groupe de travail |  |
-| \{{ varKeywords }}  | Mots-clés | Liste séparée par des \`;\` |
-| {{ varKeywordsCount }} | Nombre de mots-clés |  |
-| {{ varInspireTheme }} | Thèmes INSPIRE |  |
-| {{ varInspireConformity }} | Conformité INSPIRE | OUI ou NON |
+| {% raw %} {{ varKeywords }} {% endraw %} | Mots-clés | Liste séparée par des \`;\` |
+| {% raw %} {{ varKeywordsCount }} {% endraw %} | Nombre de mots-clés |  |
+| {% raw %} {{ varInspireTheme }} {% endraw %} | Thèmes INSPIRE |  |
+| {% raw %} {{ varInspireConformity }} {% endraw %} | Conformité INSPIRE | OUI ou NON |
 
 ---
 
 ### Identification
 
-| Variable | Champ Isogeo correspondant | Commentaires |
-| :--- | :--- | :--- |
-| {{ varTitle }} | [Titre](http://help.isogeo.com/fr/features/documentation/md_identification.html#titre) |  |
-| {{ varAbstract }} | [Résumé](http://help.isogeo.com/fr/features/documentation/md_identification.html#résumé) |  |
-| {{ varPath }} | [Emplacement](http://help.isogeo.com/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donnée) |  |
+| Variable | Champ ou valeur correspondant | Commentaires / précisions |
+| :------- | :---------------------------- | :------------------------ |
+| {% raw %} {{ varTitle }} {% endraw %} | [Titre](http://help.isogeo.com/fr/features/documentation/md_identification.html#titre) |  |
+| {% raw %} {{ varAbstract }} {% endraw %} | [Résumé](http://help.isogeo.com/fr/features/documentation/md_identification.html#résumé) |  |
+| {% raw %} {{ varPath }} {% endraw %} | [Emplacement](http://help.isogeo.com/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donnée) |  |
 
 ---
 
-### Histoire de la donnée
+### Historique de la donnée
 
-| Variable | Champ Isogeo correspondant | Commentaires |
-| :--- | :--- | :--- |
-| {{ varDataDtCrea }} | Date de création de la donnée |  |
-| {{ varDataDtUpda }} | Date de dernière modification de la donnée |  |
-| {{ varDataDtPubl }} | Date de publication de la donnée |  |
-| {{ varValidityStart }} | Date de début de validité |  |
-| {{ varValidityEnd }} | Date de fin de validité |  |
-| {{ validityComment }} | Commentaire sur la période de validité |  |
+| Variable | Champ ou valeur correspondant | Commentaires / précisions |
+| :------- | :---------------------------- | :------------------------ |
+| {% raw %} {{ varDataDtCrea }} {% endraw %} | Date de création de la donnée |  |
+| {% raw %} {{ varDataDtUpda }} {% endraw %} | Date de dernière modification de la donnée |  |
+| {% raw %} {{ varDataDtPubl }} {% endraw %} | Date de publication de la donnée |  |
+| {% raw %} {{ varValidityStart }} {% endraw %} | Date de début de validité |  |
+| {% raw %} {{ varValidityEnd }} {% endraw %} | Date de fin de validité |  |
+| {% raw %} {{ validityComment }} {% endraw %} | Commentaire sur la période de validité |  |
 
 ---
 
-### dentification
+### Evénements sur la donnée
 
-| Variable | Champ Isogeo correspondant | Commentaires |
-| :--- | :--- | :--- |
-| {{ varTitle }} | Titre |  |
-| {{ varAbstract }} | Résumé |  |
+| Variable | Champ ou valeur correspondant | Commentaires / précisions |
+| :------- | :---------------------------- | :------------------------ |
+| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
+| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
 |  |  |  |
 |  |  |  |
 |  |  |  |
 |  |  |  |
+
+---
+
+### Géographie et informations techniques
+
+| Variable | Champ ou valeur correspondant | Commentaires / précisions |
+| :------- | :---------------------------- | :------------------------ |
+| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
+| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+---
+
+### Conditions de diffusion et d'utilisation
+
+| Variable | Champ ou valeur correspondant | Commentaires / précisions |
+| :------- | :---------------------------- | :------------------------ |
+| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
+| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
+---
+
+### Contacts
+
+| Variable | Champ ou valeur correspondant | Commentaires / précisions |
+| :------- | :---------------------------- | :------------------------ |
+| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
+| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+---
+
+### Attributs
+
+| Variable | Champ ou valeur correspondant | Commentaires / précisions |
+| :------- | :---------------------------- | :------------------------ |
+| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
+| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
+
+
+
+
+
+
 
 
 
