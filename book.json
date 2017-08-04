@@ -1,5 +1,5 @@
 {
  "title": "Isogeo to office manual",
- "plugins": ["navigator", "anchor-navigation-ex"],
+ "plugins": ["navigator"],
  "pdf": {"pageNumbers": false}
  }
