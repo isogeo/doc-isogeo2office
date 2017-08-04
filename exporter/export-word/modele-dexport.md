@@ -23,8 +23,8 @@ Voici le détail des variables avec la valeur correspondante qui peut être de 2
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :--- | :--- | :--- |
-| ```{{ varOwner }}```  | Groupe de travail |  |
-| ```{{ varKeywords }}```  | Mots-clés | Liste séparée par des \`;\` |
+| \{{ varOwner }}  | Groupe de travail |  |
+| {{ varKeywords }\}  | Mots-clés | Liste séparée par des \`;\` |
 | {{ varKeywordsCount }} | Nombre de mots-clés |  |
 | {{ varInspireTheme }} | Thèmes INSPIRE |  |
 | {{ varInspireConformity }} | Conformité INSPIRE | OUI ou NON |
