@@ -1,1 +1,15 @@
-{}
+{
+    "links": {
+        "sidebar": {
+            "Site Isogeo": "http://www.isogeo.com/",
+            "Application": "https://app.isogeo.com/"
+        },
+        "sharing": {
+            "google": true,
+            "facebook": false,
+            "twitter": true,
+            "weibo": false,
+            "all": false
+        }
+    },
+}
