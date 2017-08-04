@@ -7,10 +7,10 @@
 
 ## Installation et configuration
 
-* [Installation](configuration/installation-simple.md)
-  * [install\_basic](configuration/installation-simple/installbasic.md)
-  * [install\_dev](configuration/installation-simple/installdev.md)
 * [Configuration](configuration/configuration-manuelle.md)
+  * [Configuration basique](configuration/configuration-manuelle/configui.md)
+  * [Configuration avancée](configuration/configuration-manuelle/configadvanced.md)
+  * [Depuis Isogeo](configuration/configuration-manuelle/configisogeo.md)
 
 ## Exporter
 
