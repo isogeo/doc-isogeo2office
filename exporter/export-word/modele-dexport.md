@@ -79,6 +79,13 @@ _Type : "tableau"_
 | {% raw %} {{ event.kind}} {% endraw %} | Type | |
 | {% raw %} {{ event.description }} {% endraw %} | Description | |
 
+
+Exemple dans le modèle Isogeo :
+
+
+![](/assets/word_syntax_events.png)
+
+
 ---
 
 ### Géographie et informations techniques
