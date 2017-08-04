@@ -82,7 +82,6 @@ _Type : "tableau"_
 
 Exemple dans le modèle Isogeo :
 
-
 ![](/assets/word_syntax_events.png)
 
 
@@ -156,6 +155,10 @@ _Type : "tableau"_
 | {% raw %} {{ field.alias }} {% endraw %} | Alias | |
 | {% raw %} {{ field.dataType }} {% endraw %} | Type | |
 | {% raw %} {{ field.description }} {% endraw %} | Description | |
+
+
+Exemple dans le modèle Isogeo :
+![](/assets/word_syntax_feature-attributes.png)
 
 ---
 
