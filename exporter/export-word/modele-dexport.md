@@ -18,14 +18,16 @@ Implémentée dans isogeo2office, elle permet :
 * de choisir d'afficher ou pas certains champs des métadonnées Isogeo dans les fichiers exportés ;
 * de maintenir le style et la mise en forme, puisque les styles et formats appliqués aux balises le seront aussi aux valeurs remplacées. Par exemple, si la balise de titre est en **gras** dans le modèle, le titre sera bien en gras dans le fichier exporté. 
 
-## Valeurs possibles du template
+## Balises et valeurs possibles
 
-Voici le détail des variables avec la valeur correspondante qui peut être de 2 types :
+Voici le détail des variables avec la valeur correspondante qui peut être soit la valeur d'un champ de métadonnée Isogeo, soit une valeur spécifique à isogeo2office, calculée par l'application.
 
-* la valeur d'un champ de métadonnée Isogeo ;
-* une valeur spécifique à isogeo2office.
+Il est à noter que, en simplifiant, les balises sont de 2 types :
 
-> Attention, toutes les varaibles ne sont pas présentes dans tous les types de métadonnées \(exemple : les attributs pour les rasters\). Consulter [la correspondance sur l'aide de la plateforme](http://help.isogeo.com/fr/features/documentation/index.html).
+* "plate" (_flat_) : une balise correspond à une valeur. Exemple : titre, résumé, mots-clés...
+* "tableau" (_array_) : la balise contient alors plusieurs valeurs qu'il faut parcourir. Exemple : attributs, spécifications, limitations, CGUs... Sauf à maîtriser la syntaxe, il est recommandé de se baser sur le modèle Isogeo.
+
+> Attention, toutes les variables ne sont pas présentes dans tous les types de métadonnées \(exemple : les attributs pour les rasters). Consulter [la correspondance sur l'aide de la plateforme](http://help.isogeo.com/fr/features/documentation/index.html).
 
 ### Étiquettes
 
@@ -79,9 +81,9 @@ Voici le détail des variables avec la valeur correspondante qui peut être de 2
 | :------: | :---------------------------- | :------------------------ |
 | {% raw %} {{ varNameTech }} {% endraw %} | Nom du fichier ou de la table |  |
 | {% raw %} {{ varType }} {% endraw %} | Type de donnée |  |
-| {% raw %} {{ varGeometry }} {% endraw %} | Type de géométrie |  |
 | {% raw %} {{ varFormat }} {% endraw %} | Format et version |  |
-| {% raw %} {{ varObjectsCount }} {% endraw %} | Format et version |  |
+| {% raw %} {{ varGeometry }} {% endraw %} | Type de géométrie |  |
+| {% raw %} {{ varObjectsCount }} {% endraw %} | Nombre d'objets |  |
 | {% raw %} {{ varSRS }} {% endraw %} | Système de coordonnées |  |
 | {% raw %} {{ varScale }} {% endraw %} | Echelle |  |
 | {% raw %} {{ varResolution }} {% endraw %} | Résolution |  |
@@ -103,12 +105,20 @@ Voici le détail des variables avec la valeur correspondante qui peut être de 2
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
-| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
-| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| {% raw %} {{ varContactsCount }} {% endraw %} | Nombre de contacts |  |
+| {% raw %} {{ varContactsDetails }} {% endraw %} | Tableau des contacts |  |
+| {% raw %} {% for contact in varContactsDetails %} [...] {% endfor %} {% endraw %} | Boucle sur les contacts |  |
+| {% raw %} {{ contact.name }} {% endraw %} | Nom du contact |  |
+| {% raw %} {{ contact.organization }} {% endraw %} | Nom |  |
+| {% raw %} {{ contact.role }} {% endraw %} | Type |  |
+| {% raw %} {{ contact.email }} {% endraw %} | Adresse email |  |
+| {% raw %} {{ contact.phone }} {% endraw %} | Numéro de téléphone |  |
+| {% raw %} {{ contact.fax }} {% endraw %} | Numéro de fax |  |
+| {% raw %} {{ contact.adressLine1 }} {% endraw %} | Adresse postale 1 |  |
+| {% raw %} {{ contact.adressLine2 }} {% endraw %} | Adresse postale 2 |  |
+| {% raw %} {{ contact.zipCode }} {% endraw %} | Code postal |  |
+| {% raw %} {{ contact.city }} {% endraw %} | Ville |  |
+| {% raw %} {{ contact.countryCode }} {% endraw %} | Code du pays |  |
 
 ---
 
