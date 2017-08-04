@@ -93,6 +93,8 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 
 ### Conditions de diffusion et d'utilisation
 
+_Type : "tableau"_
+
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
 | {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
@@ -103,13 +105,15 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 
 ### Contacts
 
+_Type : "tableau"_
+
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
-| {% raw %} {{ varContactsCount }} {% endraw %} | Nombre de contacts |  |
+| {% raw %} {{ varContactsCount }} {% endraw %} | Nombre de contacts | Valeur "plate" |
 | {% raw %} {{ varContactsDetails }} {% endraw %} | Tableau des contacts |  |
 | {% raw %} {% for contact in varContactsDetails %} [...] {% endfor %} {% endraw %} | Boucle sur les contacts |  |
 | {% raw %} {{ contact.name }} {% endraw %} | Nom du contact |  |
-| {% raw %} {{ contact.organization }} {% endraw %} | Nom |  |
+| {% raw %} {{ contact.organization }} {% endraw %} | Organisme |  |
 | {% raw %} {{ contact.role }} {% endraw %} | Type |  |
 | {% raw %} {{ contact.email }} {% endraw %} | Adresse email |  |
 | {% raw %} {{ contact.phone }} {% endraw %} | Numéro de téléphone |  |
@@ -124,22 +128,16 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 
 ### Attributs
 
+_Type : "tableau"_
+
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
-| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
-| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-
-
-
-
-
-
-
-
-
+| {% raw %} {{ varFieldsCount }} {% endraw %} | Nombre de champs attributaires | Valeur "plate" |
+| {% raw %} {{ varFields }} {% endraw %} | Tableau des attributs | |
+| {% raw %} {% for field in varFields %} [...] {% endfor %} {% endraw %} | Boucle sur les attributs| |
+| {% raw %} {{ field.name }} {% endraw %} | Nom de l'attribut | |
+| {% raw %} {{ field.alias }} {% endraw %} | Alias | |
+| {% raw %} {{ field.dataType }} {% endraw %} | Type | |
+| {% raw %} {{ field.description }} {% endraw %} | Description | |
 
 
