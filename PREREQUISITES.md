@@ -1,7 +1,9 @@
 # Prérequis
 
-* au moins un groupe de travail Isogeo payant avec des données partagées à l'application isogeo2office ;
-* le module standard OpenCatalog.
+* au moins un groupe de travail Isogeo dans un abonnement payant 
+* au moins un catalogue contenant au moins une métadonnée, partagé à l'application ;
+* le module standard OpenCatalog ;
+* une paire de clés d'authentification auprès de l'API ;
 
 ## Environnement technique
 
