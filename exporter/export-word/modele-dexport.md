@@ -9,7 +9,14 @@ Voici un aperçu du modèle par défaut :
 
 ## Syntaxe
 
-La syntaxe est celle du moteur de _templating_ Jinja2.
+La syntaxe est celle du moteur de _templating_ Jinja2. Elle fonctionne sur le remplacement automatique de balises par des valeurs générées ou récupérées.
+
+Une balise est caractérisée par les doubles accolades qui l'encadrent: ```{{ ``` et ``` }}```.
+
+Implémentée dans isogeo2office, elle permet :
+
+* de choisir d'afficher ou pas certains champs des métadonnées Isogeo dans les fichiers exportés ;
+* de maintenir le style et la mise en forme, puisque les styles et formats appliqués aux balises le seront aussi aux valeurs remplacées. Par exemple, si la balise de titre est en **gras** dans le modèle, le titre sera bien en gras dans le fichier exporté. 
 
 ## Valeurs possibles du template
 
