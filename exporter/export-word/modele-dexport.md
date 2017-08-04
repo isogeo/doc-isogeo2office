@@ -68,10 +68,17 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 
 ### Événements de modification sur la donnée
 
+_Type : "tableau"_
+
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
-| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
-| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
+| {% raw %} {{ varEventsCount }} {% endraw %} | Nombre de champs attributaires | Valeur "plate" |
+| {% raw %} {{ varEvents }} {% endraw %} | Tableau des événements | |
+| {% raw %} {% for event in varEvents %} [...] {% endfor %} {% endraw %} | Boucle sur les attributs (exemple) | |
+| {% raw %} {{ field.name }} {% endraw %} | Nom de l'attribut | |
+| {% raw %} {{ field.alias }} {% endraw %} | Alias | |
+| {% raw %} {{ field.dataType }} {% endraw %} | Type | |
+| {% raw %} {{ field.description }} {% endraw %} | Description | |
 
 ---
 
@@ -97,9 +104,13 @@ _Type : "tableau"_
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
-| {% raw %} {{ varTitle }} {% endraw %} | Titre |  |
-| {% raw %} {{ varAbstract }} {% endraw %} | Résumé |  |
-
+| {% raw %} {{ varFieldsCount }} {% endraw %} | Nombre de champs attributaires | Valeur "plate" |
+| {% raw %} {{ varFields }} {% endraw %} | Tableau des attributs | |
+| {% raw %} {% for field in varFields %} [...] {% endfor %} {% endraw %} | Boucle sur les attributs| |
+| {% raw %} {{ field.name }} {% endraw %} | Nom de l'attribut | |
+| {% raw %} {{ field.alias }} {% endraw %} | Alias | |
+| {% raw %} {{ field.dataType }} {% endraw %} | Type | |
+| {% raw %} {{ field.description }} {% endraw %} | Description | |
 
 ---
 
@@ -111,7 +122,7 @@ _Type : "tableau"_
 | :------: | :---------------------------- | :------------------------ |
 | {% raw %} {{ varContactsCount }} {% endraw %} | Nombre de contacts | Valeur "plate" |
 | {% raw %} {{ varContactsDetails }} {% endraw %} | Tableau des contacts |  |
-| {% raw %} {% for contact in varContactsDetails %} [...] {% endfor %} {% endraw %} | Boucle sur les contacts |  |
+| {% raw %} {% for contact in varContactsDetails %} [...] {% endfor %} {% endraw %} | Boucle sur les contacts (exemple) |  |
 | {% raw %} {{ contact.name }} {% endraw %} | Nom du contact |  |
 | {% raw %} {{ contact.organization }} {% endraw %} | Organisme |  |
 | {% raw %} {{ contact.role }} {% endraw %} | Type |  |
@@ -134,10 +145,20 @@ _Type : "tableau"_
 | :------: | :---------------------------- | :------------------------ |
 | {% raw %} {{ varFieldsCount }} {% endraw %} | Nombre de champs attributaires | Valeur "plate" |
 | {% raw %} {{ varFields }} {% endraw %} | Tableau des attributs | |
-| {% raw %} {% for field in varFields %} [...] {% endfor %} {% endraw %} | Boucle sur les attributs| |
+| {% raw %} {% for field in varFields %} [...] {% endfor %} {% endraw %} | Boucle sur les attributs (exemple) | |
 | {% raw %} {{ field.name }} {% endraw %} | Nom de l'attribut | |
 | {% raw %} {{ field.alias }} {% endraw %} | Alias | |
 | {% raw %} {{ field.dataType }} {% endraw %} | Type | |
 | {% raw %} {{ field.description }} {% endraw %} | Description | |
 
+---
 
+### Propriétés de la métadonnée
+
+| Variable | Champ ou valeur correspondant | Commentaires / précisions |
+| :------: | :---------------------------- | :------------------------ |
+| {% raw %} {{ varMdDtCrea }} {% endraw %} | Date de création | |
+| {% raw %} {{ varMdDtUpda }} {% endraw %} | Date de dernière mise à jour | |
+| {% raw %} {{ varMdDtExpt }} {% endraw %} | Date d'export | |
+| {% raw %} {{ varEditAPP }} {% endraw %} | Lien d'édition sur APP | |
+| {% raw %} {{ varViewOC }} {% endraw %} | Lien de consultation sur l'OpenCatalog | |
