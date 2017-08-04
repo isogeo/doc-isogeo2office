@@ -11,6 +11,9 @@
   * [Depuis Isogeo](/configuration/configuration-manuelle/configisogeo.md)
   * [Configuration basique](configuration/configuration-manuelle/configui.md)
   * [Configuration avancée](configuration/configuration-manuelle/configadvanced.md)
+* [installation](configuration/installation.md)
+  * [Basique](configuration/installation/installbasic.md)
+  * [Avancée](configuration/installation/installadvanced.md)
 
 ## Exporter
 
@@ -18,6 +21,4 @@
 * [Export Word](exporter/export-word.md)
   * [Modèle d'export](exporter/export-word/modele-dexport.md)
 * [Export XML](exporter/export-xml.md)
-
-
 

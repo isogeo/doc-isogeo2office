@@ -9,15 +9,24 @@ Cela répond à différents besoins :
 * transmission en interne pour des consultations hors-ligne au plus proche des habitudes métiers ;
 * impression par lot des métadonnées dans un document charté, pour des questions de validation ou de diffusion en annexe de rendus d’étude, etc. ;
 * échange standardisé en masse ;
-* sauvegarde.
+* sauvegarde ;
 
 ![](http://help.isogeo.com/fr/images/isogeo2office_UI_French_English.png)
 
+---
+
 ## Caractéristiques
+
+### Multilinguisme
+
+L'application est disponible en 2 langues :
+
+* Français ;
+* Anglais.
+
+### Licence
 
 Cette extension étant tributaire des architectures où elle est déployée, elle est considérée comme un développement spécifique et n’intègre donc pas les conditions de maintenance de la plateforme Isogeo. Une montée de version ou développement d’une évolution fait l’objet d’un chiffrage.
 
 Le client est cependant libre d’en modifier le code source à condition d’en reverser les modifications au dépôt principal \(licence GPL3\).
-
-
 
