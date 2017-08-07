@@ -11,6 +11,10 @@ Cela répond à différents besoins :
 * échange standardisé en masse ;
 * sauvegarde ;
 
+## Description
+
+Elle se présente sous la forme d'un exécutable Windows autonome, qui démarre une interface graphique minimaliste permettant à l'utilisateur de gérer l'authentification à la plateforme Isogeo, d'avoir un aperçu global des métadonnées exportables et de régler facilement les différentes options.
+
 ![](http://help.isogeo.com/fr/images/isogeo2office_UI_French_English.png)
 
 ---

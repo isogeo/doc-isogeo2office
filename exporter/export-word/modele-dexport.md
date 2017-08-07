@@ -62,7 +62,7 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 | {% raw %} {{ varDataDtPubl }} {% endraw %} | Date de publication de la donnée |  |
 | {% raw %} {{ varValidityStart }} {% endraw %} | Date de début de validité |  |
 | {% raw %} {{ varValidityEnd }} {% endraw %} | Date de fin de validité |  |
-| {% raw %} {{ validityComment }} {% endraw %} | Commentaire sur la période de validité |  |
+| {% raw %} {{ validityComment }} {% endraw %} | Commentaire sur la période de validité | . |
 
 ---
 
@@ -77,7 +77,7 @@ _Type : "tableau"_
 | {% raw %} {% for event in varEvents %} [...] {% endfor %} {% endraw %} | Boucle sur chaque événement (exemple) | |
 | {% raw %} {{ event.date }} {% endraw %} | Date | |
 | {% raw %} {{ event.kind}} {% endraw %} | Type | |
-| {% raw %} {{ event.description }} {% endraw %} | Description | |
+| {% raw %} {{ event.description }} {% endraw %} | Description | . |
 
 
 Exemple dans le modèle Isogeo :
@@ -99,7 +99,7 @@ Exemple dans le modèle Isogeo :
 | {% raw %} {{ varSRS }} {% endraw %} | Système de coordonnées |  |
 | {% raw %} {{ varScale }} {% endraw %} | Echelle |  |
 | {% raw %} {{ varResolution }} {% endraw %} | Résolution |  |
-| {% raw %} {{ varTopologyInfo }} {% endraw %} | Topologie |  |
+| {% raw %} {{ varTopologyInfo }} {% endraw %} | Topologie | . |
 
 ---
 
@@ -114,7 +114,7 @@ _Type : "tableau"_
 | {% raw %} {{ spec.name }} {% endraw %} | Nom | |
 | {% raw %} {{ spec.date }} {% endraw %} | Date | |
 | {% raw %} {{ spec.conformity }} {% endraw %} | Conformité | |
-| {% raw %} {{ spec.link }} {% endraw %} | URL | |
+| {% raw %} {{ spec.link }} {% endraw %} | URL | . |
 
 
 Exemple dans le modèle Isogeo :
@@ -140,7 +140,7 @@ _Type : "tableau"_
 | {% raw %} {{ limitation.restriction }} {% endraw %} | Restriction | |
 | {% raw %} {{ limitation.inspire }} {% endraw %} | Article INSPIRE | |
 | {% raw %} {{ limitation.description }} {% endraw %} | Description | |
-| {% raw %} {{ limitation.content }} {% endraw %} | Contenu | |
+| {% raw %} {{ limitation.content }} {% endraw %} | Contenu | . |
 
 ---
 
@@ -163,7 +163,7 @@ _Type : "tableau"_
 | {% raw %} {{ contact.adressLine2 }} {% endraw %} | Adresse postale 2 |  |
 | {% raw %} {{ contact.zipCode }} {% endraw %} | Code postal |  |
 | {% raw %} {{ contact.city }} {% endraw %} | Ville |  |
-| {% raw %} {{ contact.countryCode }} {% endraw %} | Code du pays |  |
+| {% raw %} {{ contact.countryCode }} {% endraw %} | Code du pays | . |
 
 ---
 
@@ -179,7 +179,7 @@ _Type : "tableau"_
 | {% raw %} {{ field.name }} {% endraw %} | Nom de l'attribut | |
 | {% raw %} {{ field.alias }} {% endraw %} | Alias | |
 | {% raw %} {{ field.dataType }} {% endraw %} | Type | |
-| {% raw %} {{ field.description }} {% endraw %} | Description | |
+| {% raw %} {{ field.description }} {% endraw %} | Description | . |
 
 
 Exemple dans le modèle Isogeo :
@@ -195,4 +195,4 @@ Exemple dans le modèle Isogeo :
 | {% raw %} {{ varMdDtUpda }} {% endraw %} | Date de dernière mise à jour | |
 | {% raw %} {{ varMdDtExpt }} {% endraw %} | Date d'export | |
 | {% raw %} {{ varEditAPP }} {% endraw %} | Lien d'édition sur APP | |
-| {% raw %} {{ varViewOC }} {% endraw %} | Lien de consultation sur l'OpenCatalog | |
+| {% raw %} {{ varViewOC }} {% endraw %} | Lien de consultation sur l'OpenCatalog | . |
