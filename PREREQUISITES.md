@@ -14,5 +14,9 @@
 * droits d’écriture sur le dossier d’installation et sur celui de sortie \(“output”\) ;
 * une connexion autorisée et configurée \(proxy, pare-feu...\) vers [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) et [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/)
 
+## Fonctionnement global
 
+A titre indicatif, voici un schéma du déroulé technique de l'application :
+
+![](/assets/isogeo2office_SchemaTechnicoFonctionnel.png)
 
