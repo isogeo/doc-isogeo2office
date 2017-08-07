@@ -15,40 +15,6 @@ Voici un aperçu du tableur en sortie \(sauf les styles qui ont été appliqués
 
 ![](http://help.isogeo.com/fr/images/isogeo2office_excel_result.png)
 
-### Correspondance colonne / champ
-
-#### Vecteurs
-
-| Colonne du fichier Excel | Champ métadonnée |
-| :--- | :--- |
-|  |  |
-
----
-
-#### Rasters
-
-| Colonne du fichier Excel | Champ métadonnée |
-| :--- | :--- |
-|  |  |
-
----
-
-#### Services
-
-| Colonne du fichier Excel | Champ métadonnée |
-| :--- | :--- |
-|  |  |
-
----
-
-#### Ressources
-
-| Colonne du fichier Excel | Champ métadonnée |
-| :--- | :--- |
-|  |  |
-
----
-
 ## Options
 
 ### Nom du fichier de sortie
