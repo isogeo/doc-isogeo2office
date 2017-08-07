@@ -1,3 +1,3 @@
 {
- "plugins": ["anchors", "navigator", "toggle-chapters"]
+ "plugins": ["anchors", "navigator", "collapsible-menu"]
  }
