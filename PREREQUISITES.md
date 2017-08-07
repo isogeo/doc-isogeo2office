@@ -1,5 +1,7 @@
 # Prérequis
 
+## Isogeo
+
 * au moins un groupe de travail Isogeo dans un abonnement payant 
 * au moins un catalogue contenant au moins une métadonnée, partagé à l'application ;
 * le module standard OpenCatalog ;

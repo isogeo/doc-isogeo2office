@@ -1,6 +1,0 @@
-# Installation pour le développement
-
-
-
-
-
