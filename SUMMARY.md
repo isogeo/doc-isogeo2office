@@ -7,10 +7,10 @@
 
 ## Installation et configuration
 
-* [Configuration](configuration/configuration-manuelle.md)
-  * [Depuis Isogeo](/configuration/configuration-manuelle/configisogeo.md)
-  * [Configuration basique](configuration/configuration-manuelle/configui.md)
-  * [Configuration avancée](configuration/configuration-manuelle/configadvanced.md)
+* [Configuration](configuration/configuration.md)
+  * [Depuis Isogeo](/configuration/configuration/configisogeo.md)
+  * [Configuration basique](configuration/configuration/configui.md)
+  * [Configuration avancée](configuration/configuration/configadvanced.md)
 * [installation](configuration/installation.md)
   * [Basique](configuration/installation/installbasic.md)
   * [Avancée](configuration/installation/installadvanced.md)
