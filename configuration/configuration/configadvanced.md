@@ -28,21 +28,21 @@ proxy_port = 80                     # port du proxy
 proxy_user = proxy_user             # utilisateur du proxy
 
 [excel]
-excel_out = isogeo2xlsx    # nom du fichier de sortie
 excel_opt = 1              # indique si l'export en Excel a été choisi lors de la dernière exécution. 0 ou 1.
+output_name = isogeo2xlsx    # nom du fichier de sortie
 
 [word]
 word_opt = 1                       # indique si l'export en Word a été choisi lors de la dernière exécution. 0 ou 1.
-word_out_prefix = isogeo2docx      # préfixe du nom de fichier de sortie
-word_tpl = template_Isogeo.docx    # chemin (relatif ou absolu) du dernier modèle choisi
-word_opt_id = 0                    # nombre de caractères de l'identifiant unique Isogeo inclus. De 0 à 8.
-word_opt_date = 1                  # type de date à inclure dans le nom du fichier exporté. 0, 1 ou 2.
+out_prefix = isogeo2docx      # préfixe du nom de fichier de sortie
+tpl = template_Isogeo.docx    # chemin (relatif ou absolu) du dernier modèle choisi
+opt_id = 0                    # nombre de caractères de l'identifiant unique Isogeo inclus. De 0 à 8.
+opt_date = 1                  # type de date à inclure dans le nom du fichier exporté. 0, 1 ou 2.
 
 [xml]
 xml_opt = 1                    # indique si l'export en XML a été choisi lors de la dernière exécution. 0 ou 1.
-xml_opt_id = 0                 # nombre de caractères de l'identifiant unique Isogeo inclus. De 0 à 8.
-xml_out_prefix = isogeo2xml    # préfixe du nom de fichier de sortie
-xml_opt_date = 1               # type de date à inclure dans le nom du fichier exporté. 0, 1 ou 2.
+out_prefix = isogeo2xml    # préfixe du nom de fichier de sortie
+opt_id = 0                 # nombre de caractères de l'identifiant unique Isogeo inclus. De 0 à 8.
+opt_date = 1               # type de date à inclure dans le nom du fichier exporté. 0, 1 ou 2.
 ```
 
 

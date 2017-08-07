@@ -15,13 +15,18 @@ Une fois l'authentification établie, l'application indique :
 * le nombre de groupes de travail lui partageant des catalogues ;
 * si la configuration est correcte. Dans le cas contraire, le message d'erreur apparaît dans la barre d'état en bas de la fenêtre.
 
-A tout moment, l'utilisateur peut entrer de nouvelles clés en cliquant sur le bouton `Accès`. 
+A tout moment, l'utilisateur peut entrer de nouvelles clés en cliquant sur le bouton `Accès`.
 
+## Raccourcis divers
 
+En regard des informations de configuration, 4 boutons sont proposés :
 
+* `Administrer` : ouvre la page d'administration de chaque partage pointant sur l'application dans le navigateur web par défaut.
+* `Contacter`: ouvre le client email par défaut configuré sur la machine de l'utilisateur pour envoyer un courriel préformaté à l'équipe Isogeo.
+* `Accès`: permet de changer les clés d'authentification à l'API \(voir ci-dessus\).
+* `Signaler`: ouvre la page de signalement des anomalies de l'application.
 
-
-## Options d'export
+## Choix d'export et lancement
 
 Dans le volet du bas, l'utilisateur peut :
 
@@ -30,6 +35,4 @@ Dans le volet du bas, l'utilisateur peut :
 * ouvrir le dossier de stockage dans son explorateur.
 
 C'est aussi dans ce volet qu'il peut lancer le processus d'export.
-
-
 
