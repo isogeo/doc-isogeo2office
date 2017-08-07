@@ -1,5 +1,4 @@
 {
  "title": "Isogeo to office manual yipiyo",
  "plugins": ["navigator"],
- "pdf": {"pageNumbers": false}
  }
