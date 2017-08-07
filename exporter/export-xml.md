@@ -1,8 +1,12 @@
 # Export des métadonnées au format XML ISO 19139
 
-Le format XML ISO 19139
+L’export consiste en la récupération de la version XML de chaque métadonnée, fournie par Isogeo. Il est possible de générer automatiquement un fichier compressé au format ZIP contenant toutes les fiches du partage. Idéal pour l’échange massif standardisé ou une démarche de sauvegarde.
+
+> Le format XML ISO 19139 est celui recommandé dans la directive INSPIRE et le plus répandu dans les échanges de catalogues de métadonnées.
 
 ## Résultat
+
+Voici un aperçu des fichiers en sortie, contenus dans leur archive ZIP :![](/assets/isogeo2office_xml_result.png)
 
 ## Options
 
@@ -28,5 +32,7 @@ Valeurs possibles :
 * 1 : seule la date est ajoutée, sous la forme \`AAAA-MM-JJ\` ;
 * 2 : la date et l'heure est ajoutée, sous la forme \`AAAA-MM-JJ-HHmmSS\`.
 
+### Consolider dans une archive zippée
 
+Option permettant de regrouper tous les fichiers dans un seul fichier ZIP.
 

@@ -47,5 +47,3 @@ xml_opt_date = 1               # type de date à inclure dans le nom du fichier 
 
 
 
-
-
