@@ -44,10 +44,10 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 ### Identification
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
-| :------: | :---------------------------- | :------------------------ |
-| {% raw %} {{ varTitle }} {% endraw %} | [Titre](http://help.isogeo.com/fr/features/documentation/md_identification.html#titre) |  |
+| :--------------------------------------: | :--------------------------------------------------------------------------------------- | :------------------------ |
+| {% raw %} {{ varTitle }} {% endraw %}    | [Titre](http://help.isogeo.com/fr/features/documentation/md_identification.html#titre) |  |
 | {% raw %} {{ varAbstract }} {% endraw %} | [Résumé](http://help.isogeo.com/fr/features/documentation/md_identification.html#résumé) |  |
-| {% raw %} {{ varPath }} {% endraw %} | [Emplacement](http://help.isogeo.com/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donnée) |  |
+| {% raw %} {{ varPath }} {% endraw %}     | [Emplacement](http://help.isogeo.com/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donnée) | . |
 
 ---
 
