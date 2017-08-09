@@ -23,7 +23,7 @@ Elle se présente sous la forme d'un exécutable Windows autonome, qui démarre 
 
 L'application a été présentée lors du webinaire du 10 mai 2017 :
 
-{% youtube src="https://www.youtube.com/watch?v=-RKkDyMbqAg" %}{% endyoutube %}
+{% youtube src="https://youtu.be/-RKkDyMbqAg" %}{% endyoutube %}
 
 ---
 
