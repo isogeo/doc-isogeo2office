@@ -22,6 +22,8 @@ Voici le scénario d'utilisation générique :
 
 A titre indicatif, voici un schéma du déroulé technique de l'application :
 
+![](/assets/isogeo2office_SchemaTechnicoFonctionnel.png)
+
 ---
 
 # Prérequis
