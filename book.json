@@ -1,8 +1,4 @@
 {
  "language": "fr",
- "plugins": ["anchors", "page-nav-configurable", "youtube"],
-  "pdf": {
-        "headerTemplate": "_TITLE_",
-        "footerTemplate": "_AUTHOR_ - _SECTION_ - _PAGENUM_"
-    }
+ "plugins": ["anchors", "page-nav-configurable", "youtube"]
  }
