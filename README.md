@@ -27,9 +27,6 @@ L'application a été présentée lors du webinaire du 10 mai 2017 :
 https://www.youtube.com/watch?v=-RKkDyMbqAg
 {% endyoutube %}
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/-RKkDyMbqAg" frameborder="0" allowfullscreen></iframe>
-
-
 ---
 
 ## Caractéristiques
