@@ -22,7 +22,7 @@ Voici le scénario d'utilisation générique :
 
 A titre indicatif, voici un schéma du déroulé technique de l'application :
 
-![](/assets/AccessibiliteTrain_IsochroneParis.PNG)
+![](assets/AccessibiliteTrain_IsochroneParis.PNG)
 
 ---
 
