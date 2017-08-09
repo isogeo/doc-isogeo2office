@@ -44,5 +44,6 @@ Cette extension étant tributaire des architectures où elle est déployée, ell
 
 Le client est cependant libre d’en modifier le code source à condition d’en reverser les modifications au [dépôt principal](https://bitbucket.org/isogeo/isogeo-2-office) \([licence GPL3](https://www.gnu.org/licenses/gpl-3.0.txt)\).
 
-![](/fr/assets/isogeo2office_xml_result.png)
+![](/assets/isogeo2office_xml_result.png)
 
+![](/assets/isogeo2office_auth_form_FR.png)
