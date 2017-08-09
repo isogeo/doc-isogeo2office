@@ -1,4 +1,3 @@
 {
- "language": "fr",
- "plugins": ["anchors", "page-nav-configurable", "youtube"]
+ "language": "fr"
  }

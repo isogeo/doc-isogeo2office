@@ -1,4 +1,4 @@
 # Languages
 
+* [Français](fr/)
 * [English](en/)
-* [French](fr/)
