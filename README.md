@@ -19,6 +19,12 @@ Elle se présente sous la forme d'un exécutable Windows autonome, qui démarre 
 
 ![](http://help.isogeo.com/fr/images/isogeo2office_UI_French_English.png)
 
+### Vidéo de présentation
+
+L'application a été présentée lors du webinaire du 10 mai 2017 :
+
+{% youtube src="https://www.youtube.com/watch?v=-RKkDyMbqAg" %}{% endyoutube %}
+
 ---
 
 ## Caractéristiques
