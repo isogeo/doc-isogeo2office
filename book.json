@@ -1,3 +1,4 @@
 {
+ "language": "fr",
  "plugins": ["anchors", "page-nav-configurable"]
  }

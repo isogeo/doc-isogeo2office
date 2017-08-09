@@ -1,3 +1,5 @@
+![](http://www.isogeo.com/images/logo.png)
+
 # Isogeo to Office
 
 Isogeo to office \(ou isogeo2office\) est une application tierce de la plateforme Isogeo dont l’objectif est de permettre à un administrateur Isogeo d’exporter tout ou partie de son patrimoine de métadonnées dans un format consommable dans une suite bureautique \(Microsoft Office, Libre Office, etc.\).
