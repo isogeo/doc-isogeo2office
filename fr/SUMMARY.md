@@ -23,4 +23,5 @@
 * [Export Word](exporter/export-word.md)
   * [Modèle d'export](exporter/export-word/modele-dexport.md)
 * [Export XML](exporter/export-xml.md)
+* [API](api.md)
 
