@@ -16,10 +16,6 @@
 ## Exporter
 
 * [Export Excel](exporter/export-excel.md)
-  * [Onglet "Vecteurs"](exporter/export-excel/sheetvector.md)
-  * [Onglet "Raster"](exporter/export-excel/sheetraster.md)
-  * [Onglet "Services"](exporter/export-excel/sheetservices.md)
-  * [Onglet "Ressources"](exporter/export-excel/sheetresources.md)
 * [Export Word](exporter/export-word.md)
   * [Modèle d'export](exporter/export-word/modele-dexport.md)
 * [Export XML](exporter/export-xml.md)
