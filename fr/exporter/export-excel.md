@@ -1,6 +1,6 @@
 # Export des métadonnées au format Microsoft Excel
 
-Ce traitement consiste stocker l’ensemble des métadonnées partagées à l'application isogeo2office dans un seul fichier Microsoft Excel \(.xlsx\) de façon à centraliser l’information.
+Ce traitement consiste à stocker l’ensemble des métadonnées partagées à l'application isogeo2office dans un seul fichier Microsoft Excel \(.xlsx\) de façon à centraliser l’information.
 
 Les métadonnées sont réparties en 4 onglets correspondant à leur type :
 
