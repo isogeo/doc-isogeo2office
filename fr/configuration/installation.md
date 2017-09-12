@@ -15,7 +15,7 @@ Pour plus de simplicité, il est parfaitement possible de créer un raccourci, c
 
 ## Structure du dossier d'installation
 
-Malgré la profusion de dossiers et fichiers contenus dans l'archive, seuls certains sont importants à retenir :
+Parmi les dossiers et fichiers, voici ceux qui vous seront essentiels :
 
 * `output`: dossier de sortie par défaut des fichiers exportés \(voir [la configuration](/configuration/configuration/configui.md)\) ;
 * `templates`: dossier où stocker les modèles pour l'export en format word \(voir [la section dédiée](/exporter/export-word/modele-dexport.md)\) ;
