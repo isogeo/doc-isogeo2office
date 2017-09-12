@@ -6,7 +6,7 @@ Les métadonnées sont réparties en 4 onglets correspondant à leur type :
 
 * données vectorielles ;
 * données rasters ;
-* services webs ;
+* services web géographiques ;
 * ressources non géographiques.
 
 ## Résultat
