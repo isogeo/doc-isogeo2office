@@ -20,3 +20,7 @@
   * [Modèle d'export](exporter/export-word/modele-dexport.md)
 * [Export XML](exporter/export-xml.md)
 
+## Annexes
+
+* [Figures et images](fr/pictures.md)
+
