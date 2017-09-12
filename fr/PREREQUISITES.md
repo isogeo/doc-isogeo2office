@@ -22,7 +22,7 @@ Voici le scénario d'utilisation générique :
 
 A titre indicatif, voici un schéma du déroulé technique de l'application :
 
-![](/assets/fr/assets/isogeo2office_SchemaTechnicoFonctionnel.png)
+![](/assets/assets/isogeo2office_SchemaTechnicoFonctionnel.png)
 
 ---
 
