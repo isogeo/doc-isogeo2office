@@ -22,5 +22,5 @@ Malgré la profusion de dossiers et fichiers contenus dans l'archive, seuls cert
 * `isogeo2office.exe` : exécutable de l'application. C'est le seul fichier à ouvrir pour utiliser le programme.
 * `settings.ini` : fichier de configuration du programme. Ne doit être édité manuellement qu'en cas de besoin de configuration avancée \(voir [section dédiée](/configuration/configuration/configadvanced.md)\).
 
-![](/assets/isogeo2office_install_dir.png)
+!["Aperçu du dossier d'installation"](/assets/isogeo2office_install_dir.png)
 
