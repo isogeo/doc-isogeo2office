@@ -22,5 +22,5 @@
 
 ## Annexes
 
-* [Figures et images](fr/pictures.md)
+* [Figures et images](appendices/pictures.md)
 
