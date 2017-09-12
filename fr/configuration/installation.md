@@ -1,6 +1,6 @@
 # Déploiement et utilisation
 
-Isogeo2office se présente sous la forme d'un exécutable autonome dans une archive ZIP. Cela signifie qu'il n'y a pas de processus d'installation à proprement parler sur le système et que le programme est utilisable sur une clé USB. Cependant,
+Isogeo2office se présente sous la forme d'un exécutable autonome dans une archive ZIP. Cela signifie qu'il n'y a pas de processus d'installation à proprement parler sur le système et que le programme est utilisable sur une clé USB.
 
 Procédure détaillée pour lancer l'application :
 
