@@ -2,7 +2,7 @@
 
 ## Résultat
 
-Voici un aperçu du fichier en sortie :![](http://help.isogeo.com/fr/images/isogeo2office_word_result.png)
+Voici un aperçu du fichier en sortie :![](http://help.isogeo.com/fr/images/isogeo2office_word_result.png "Aperçu du fichier Word produit en sortie par Isogeo to Office")
 
 ---
 

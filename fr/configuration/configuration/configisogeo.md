@@ -4,7 +4,7 @@
 
 A l’instar de toutes les applications de diffusion et valorisation basées sur l’API Isogeo, l’administrateur Isogeo partage un ou plusieurs catalogues à l’application isogeo2office ainsi qu’à un OpenCatalog, de la même façon que sur la capture suivante :
 
-![](/assets/isogeo2office_share_config.png)
+!["Configuration du partage de catalogues vers Isogeo to Office depuis app.isogeo.com"](/assets/isogeo2office_share_config.png =40Ox)
 
 ### Démarche détaillée
 

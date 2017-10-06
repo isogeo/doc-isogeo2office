@@ -8,7 +8,9 @@ Cette fonctionnalité a été ajoutée avec la version 1.5 \(fin 2016\).
 
 ## Résultat
 
-Voici un aperçu des fichiers en sortie, contenus dans leur archive ZIP :![](/assets/isogeo2office_xml_result.png)
+Voici un aperçu des fichiers en sortie, contenus dans leur archive ZIP :
+
+![](/assets/isogeo2office_xml_result.png "Aperçu de l'archive ZIP et d'un fichier XML produit par Isogeo to Office")
 
 ## Options
 

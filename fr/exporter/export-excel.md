@@ -13,7 +13,7 @@ Les métadonnées sont réparties en 4 onglets correspondant à leur type :
 
 Voici un aperçu du tableur en sortie \(sauf les styles qui ont été appliqués manuellement après la première ouverture\) :
 
-![](http://help.isogeo.com/fr/images/isogeo2office_excel_result.png)
+![](http://help.isogeo.com/fr/images/isogeo2office_excel_result.png "Aperçu du tableur Excel produit par Isogeo to Office")
 
 ## Options
 

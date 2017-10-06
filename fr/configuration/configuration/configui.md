@@ -4,7 +4,7 @@
 
 Au premier lancement de l'application, l'utilisateur doit entrer les clés oAuth2 \(un identifiant et un secret\) qui lui ont été transmises par l'équipe Isogeo :
 
-![](/assets/isogeo2office_auth_form_FR.png)
+!["Formulaire d'authentification d'Isogeo to Office à l'API Isogeo"](/assets/isogeo2office_auth_form_FR.png)
 
 Si l'utilisateur ne dispose pas de clés d'authentification, il peut en faire la demande en envoyant un mail à [projets@isogeo.fr](mailto:projets@isogeo.fr) ou cliquer sur le bouton `Demande d'accès`\(s'il dispose d'un client mail par défaut configuré sur son ordinateur.
 
