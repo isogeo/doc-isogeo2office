@@ -1,3 +1,4 @@
+/* PAGE TOC */
 .page-toc:before {
     content: "Sommaire";
     font-weight: bold;
@@ -13,7 +14,7 @@
 }
 
 .page-toc ul {
-        padding-left: 10px;
+        padding-left: 15px;
 }
 
 .page-toc > ul {
