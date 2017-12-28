@@ -1,4 +1,5 @@
 /* PAGE TOC */
+
 .page-toc:before {
     content: "Sommaire";
     font-weight: bold;
