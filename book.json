@@ -1,7 +1,6 @@
 {
  "plugins": ["image-captions",
              "page-toc",
-             "page-nav-configurable",
              "youtube"
              ],
   "pluginsConfig": {
