@@ -6,15 +6,15 @@ Voici un aperçu du fichier en sortie :![](http://help.isogeo.com/fr/images/isog
 
 ---
 
-## Options
+## Options {#options}
 
-### Choix du modèle à appliquer
+### Choix du modèle à appliquer {#template_picker}
 
 Liste déroulant qui permet de choisir le modèle Word à appliquer pour générer les fichiers. Correspond à la liste des fichiers Word stockés dans le dossier _templates_ de l'installation.
 
-Voir [la section dédiée](/exporter/export-word/modele-dexport.md).
+Voir [la section dédiée](/exporter/export-word/modele-dexport.md "").
 
-### Personnaliser le nom des fichiers
+### Personnaliser le nom des fichiers {#custom_filenames}
 
 Le nom du fichier de sortie est de la forme : _\[PREFIXE\]_\__\[MD-UID\]_\_**\[MD-TITRE\]**\__\[DATE-HEURE\]_. Seul le titre de la métadonnée est obligatoirement présent dans le nom du fichier. Les autres éléments servent à garantir l'unicité des noms de fichiers en évitant les conflits entre les métadonnées de même titre \(par exemple, issues de groupes de travail différents\).
 
@@ -35,6 +35,3 @@ Valeurs possibles :
 * 0 : rien n'est ajouté au nom du fichier ;
 * 1 : seule la date est ajoutée, sous la forme \`AAAA-MM-JJ\` ;
 * 2 : la date et l'heure est ajoutée, sous la forme \`AAAA-MM-JJ-HHmmSS\`.
-
-
-

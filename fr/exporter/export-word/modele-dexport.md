@@ -5,7 +5,7 @@ L'export au format Word fonctionne sur la base d'un modèle afin que l'utilisate
 Il est possible de créer autant de modèles que besoin.
 
 Voici un aperçu du modèle par défaut :
-![](http://help.isogeo.com/fr/images/isogeo2office_word_template.png)
+![](http://help.isogeo.com/fr/images/isogeo2office_word_template.png "Aperçu du modèle Word à personnaliser pour les exports Word")
 
 ## Syntaxe
 
