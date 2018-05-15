@@ -16,7 +16,7 @@ Voici le scénario d'utilisation :
 7. L'export est effectué dans l'ordre suivant : Excel, Word puis XML. Chaque étape est indiquée dans la barre d'état en bas.
 8. Une fois le traitement terminé, l'utilisateur peut fermer l'interface.
 
-[![&quot;isogeo2office - Tour guidé en GIF animé&quot;](https://bytebucket.org/isogeo/isogeo-2-office/raw/94895562fd0c1d9f8d9ef2f543175cf6da7a21ff/img/demo_fr.gif)](https://bytebucket.org/isogeo/isogeo-2-office/raw/94895562fd0c1d9f8d9ef2f543175cf6da7a21ff/img/demo_fr.gif "Voir un GIF de démonstration complète")
+[![&quot;isogeo2office - Tour guidé en GIF animé&quot;](https://raw.githubusercontent.com/isogeo/isogeo-2-office/master/img/demo_fr.gif)](https://github.com/isogeo/isogeo-2-office/blob/master/img/demo_fr.gif "Voir un GIF de démonstration complète")
 
 ## Schéma technico-fonctionnel
 
