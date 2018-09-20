@@ -18,7 +18,7 @@ Voici le scénario d'utilisation :
 
 Voici le fonctionnement global (ancienne version) :
 
-[![&quot;isogeo2office - Tour guidé en GIF animé&quot;](https://raw.githubusercontent.com/isogeo/isogeo-2-office/master/img/demo_fr.gif)](https://github.com/isogeo/isogeo-2-office/blob/master/img/demo_fr.gif "Voir un GIF de démonstration complète")
+[![&quot;Tour guidé en GIF animé&quot;](https://raw.githubusercontent.com/isogeo/isogeo-2-office/master/img/demo_fr.gif)](https://github.com/isogeo/isogeo-2-office/blob/master/img/demo_fr.gif "Voir un GIF de démonstration complète")
 
 ## Schéma technico-fonctionnel {#schema}
 
