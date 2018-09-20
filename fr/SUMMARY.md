@@ -16,6 +16,7 @@
 * [Export Excel](export/excel.md)
 * [Export Word](export/word.md)
   * [Modèle d'export](export/word/template.md)
+  * [Vignettes](export/word/thumbnails.md)
 * [Export XML](export/xml.md)
 
 ## Annexes

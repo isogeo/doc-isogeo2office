@@ -7,7 +7,7 @@ Il est possible de créer autant de modèles que besoin.
 Voici un aperçu du modèle par défaut :
 ![](http://help.isogeo.com/fr/images/isogeo2office_word_template.png "Aperçu du modèle Word à personnaliser pour les exports Word")
 
-## Syntaxe
+## Syntaxe {#syntax}
 
 La syntaxe est celle du moteur de _templating_ Jinja2. Elle fonctionne sur le remplacement automatique de balises par des valeurs générées ou récupérées.
 
@@ -18,7 +18,7 @@ Implémentée dans isogeo2office, elle permet :
 * de choisir d'afficher ou pas certains champs des métadonnées Isogeo dans les fichiers exportés ;
 * de maintenir le style et la mise en forme, puisque les styles et formats appliqués aux balises le seront aussi aux valeurs remplacées. Par exemple, si la balise de titre est en **gras** dans le modèle, le titre sera bien en gras dans le fichier exporté. 
 
-## Balises et valeurs possibles
+## Balises et valeurs possibles {#markups}
 
 Voici le détail des variables avec la valeur correspondante qui peut être soit la valeur d'un champ de métadonnée Isogeo, soit une valeur spécifique à isogeo2office, calculée par l'application.
 
@@ -29,7 +29,7 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 
 > Attention, toutes les variables ne sont pas présentes dans tous les types de métadonnées \(exemple : les attributs pour les rasters). Consulter [la correspondance sur l'aide de la plateforme](http://help.isogeo.com/fr/features/documentation/index.html).
 
-### Étiquettes
+### Étiquettes {#keywords}
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
@@ -41,7 +41,7 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 
 ---
 
-### Identification
+### Identification {#general}
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :--------------------------------------: | :--------------------------------------------------------------------------------------- | :------------------------ |
@@ -51,7 +51,7 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 
 ---
 
-### Historique de la donnée
+### Historique de la donnée {#historic}
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
@@ -66,7 +66,7 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 
 ---
 
-### Événements de modification sur la donnée
+### Événements de modification sur la donnée {#events}
 
 _Type : "tableau"_
 
@@ -87,7 +87,7 @@ Exemple dans le modèle Isogeo :
 
 ---
 
-### Géographie et informations techniques
+### Géographie et informations techniques {#technical}
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
@@ -103,7 +103,7 @@ Exemple dans le modèle Isogeo :
 
 ---
 
-### Spécifications
+### Spécifications {#specifications}
 
 _Type : "tableau"_
 
@@ -122,7 +122,7 @@ Exemple dans le modèle Isogeo :
 
 ---
 
-### Conditions de diffusion et d'utilisation
+### Conditions de diffusion et d'utilisation {#cgus}
 
 _Type : "tableau"_
 
@@ -144,7 +144,7 @@ _Type : "tableau"_
 
 ---
 
-### Contacts
+### Contacts {#contacts}
 
 _Type : "tableau"_
 
@@ -167,7 +167,7 @@ _Type : "tableau"_
 
 ---
 
-### Attributs
+### Attributs {#feature-attributes}
 
 _Type : "tableau"_
 
@@ -187,7 +187,7 @@ Exemple dans le modèle Isogeo :
 
 ---
 
-### Propriétés de la métadonnée
+### Propriétés de la métadonnée {#properties}
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :------: | :---------------------------- | :------------------------ |
