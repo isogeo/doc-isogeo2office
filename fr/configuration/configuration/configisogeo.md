@@ -1,12 +1,12 @@
 # Configuration à partir d'Isogeo
 
-## Choisir quels catalogues exporter
+## Choisir quels catalogues exporter {#feed}
 
 A l’instar de toutes les applications de diffusion et valorisation basées sur l’API Isogeo, l’administrateur Isogeo partage un ou plusieurs catalogues à l’application isogeo2office ainsi qu’à un OpenCatalog, de la même façon que sur la capture suivante :
 
 !["Configuration du partage de catalogues vers Isogeo to Office depuis app.isogeo.com"](/assets/isogeo2office_share_config.png)
 
-### Démarche détaillée
+### Démarche détaillée {#feeding_detailed}
 
 1. Se rendre dans le menu `Partages` de l'administration : [https://app.isogeo.com/admin/shares](https://app.isogeo.com/admin/shares) ;
 2. Créer un nouveau partage : [https://app.isogeo.com/admin/shares/new](https://app.isogeo.com/admin/shares/new) ;

@@ -9,9 +9,8 @@
 
 * [Installation](configuration/installation.md)
 * [Configuration](configuration/configuration.md)
-  * [Depuis Isogeo](/configuration/configuration/configisogeo.md)
-  * [Globale](configuration/configuration/configui.md)
-  * [Avancée](configuration/configuration/configadvanced.md)
+  * [Sur APP \(isogeo.com\)](/configuration/configuration/configisogeo.md)
+  * [Authentification](configuration/configuration/configui.md)
 
 ## Exporter
 
