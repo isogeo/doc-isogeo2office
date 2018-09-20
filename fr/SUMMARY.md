@@ -8,9 +8,8 @@
 ## Installation et configuration
 
 * [Installation](configuration/installation.md)
-* [Configuration](configuration/configuration.md)
-  * [Sur APP \(isogeo.com\)](/configuration/configuration/configisogeo.md)
-  * [Authentification](configuration/configuration/configui.md)
+* [Alimenter depuis APP \(isogeo.com\)](/configuration/isogeo.md)
+* [Authentification](configuration/authentication.md)
 
 ## Exporter
 
@@ -23,4 +22,3 @@
 
 * [Questions fréquentes et support](support.md)
 * [Figures et images](pictures.md)
-

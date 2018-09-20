@@ -17,7 +17,7 @@ Pour plus de simplicité, comme pour n'importe quelle application Windows, il es
 
 ## Mise à jour {#update}
 
-Pour mettre à jour l'application, il suffit de remplacer tous les fichiers du dossier par ceux de la nouvelle version.
+Pour mettre à jour l'application, il suffit de remplacer tous les fichiers du dossier par ceux de la nouvelle version. Les préférences et les paramètres d'authentification sont conservés.
 
 ---
 
