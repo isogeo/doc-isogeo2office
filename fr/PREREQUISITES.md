@@ -38,8 +38,7 @@ A titre indicatif, voici un schéma du déroulé technique de l'application :
 ## Environnement technique
 
 * ordinateur Windows 7+ mais support uniquement sur Windows 10+ ;
-* droits d’administration le temps de l’installation des dépendances ;
-* droits d’écriture sur le dossier d’installation et sur celui de sortie \(“output”\) ;
+* droits d’écriture sur le dossier d’installation et sur celui de sortie ;
 * une connexion autorisée et configurée \(proxy, pare-feu...\) vers [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) et [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/)
 
 
