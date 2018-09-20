@@ -1,12 +1,15 @@
 # Configuration via l'interface graphique
 
-## Authentification
+## Authentification {#authentication}
 
 Au premier lancement de l'application, l'utilisateur doit importer le fichier d'authentification à l'API Isogeo, transmis par l'équipe Isogeo :
 
 !["Formulaire d'authentification d'Isogeo to Office à l'API Isogeo"](/assets/i2o_auth_form.png)
 
-Si l'utilisateur ne dispose pas de clés d'authentification, il peut en faire la demande en envoyant un mail à [projets@isogeo.fr](mailto:projets@isogeo.fr) ou cliquer sur le bouton `Demande d'accès`\(s'il dispose d'un client mail par défaut configuré sur son ordinateur.
+
+## Demander un accès {#auth-request}
+
+Si l'utilisateur ne dispose pas de clés d'authentification, il peut en faire la demande en cliquant sur le bouton `Demander un accès` ou directement sur [le formulaire en ligne](https://pipedrivewebforms.com/form/427397f21f1417e5b937b673dfa12c9052944).
 
 Une fois l'authentification établie, l'application indique :
 
