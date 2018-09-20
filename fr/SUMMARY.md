@@ -22,5 +22,6 @@
 
 ## Annexes
 
+* [Questions fréquentes et support](support.md)
 * [Figures et images](pictures.md)
 
