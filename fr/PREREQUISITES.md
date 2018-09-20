@@ -1,6 +1,6 @@
 # Fonctionnement
 
-## Déroulé
+## Déroulé {#scenario}
 
 Voici le scénario d'utilisation :
 
