@@ -17,11 +17,12 @@ Cela répond à différents besoins :
 
 Elle se présente sous la forme d'un exécutable Windows autonome, qui démarre une interface graphique minimaliste permettant à l'utilisateur de gérer l'authentification à la plateforme Isogeo, d'avoir un aperçu global des métadonnées exportables et de régler facilement les différentes options.
 
-![](http://help.isogeo.com/fr/images/isogeo2office_UI_French_English.png)
+![Isogeo To Office](/assets/i2o_overview.png "Vue des deux onglets")
+
 
 ### Vidéo de présentation
 
-L'application a été présentée lors du webinaire du 10 mai 2017. Revisionnez cette présentation en cliquant sur le lien ci-dessous :
+L'application, dans son ancienne version, a été présentée lors du webinaire du 10 mai 2017. Revisionnez cette présentation en cliquant sur le lien ci-dessous :
 
 {% youtube %}
 https://www.youtube.com/watch?v=-RKkDyMbqAg
