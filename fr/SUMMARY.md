@@ -13,10 +13,10 @@
 
 ## Exporter
 
-* [Export Excel](exporter/export-excel.md)
-* [Export Word](exporter/export-word.md)
-  * [Modèle d'export](exporter/export-word/modele-dexport.md)
-* [Export XML](exporter/export-xml.md)
+* [Export Excel](export/excel.md)
+* [Export Word](export/word.md)
+  * [Modèle d'export](export/word/template.md)
+* [Export XML](export/xml.md)
 
 ## Annexes
 

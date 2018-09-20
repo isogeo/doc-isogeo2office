@@ -15,7 +15,7 @@ Si vous obtenez un message d'erreur ou bien vous constatez un comportement anorm
     4. joindre le/s fichier/s LOG (cliquer sur le bouton dans l'onglet Paramètres)
     5. compléter le modèle de signalement
 
-![](/assets/i2o_support_repot.png "Boutons pour obtenir le fichier journal log et signaler une anomalie")
+!["Isogeo to office - Report"](/assets/i2o_support_report.png "Boutons pour obtenir le fichier journal log et signaler une anomalie")
 
 ---
 
@@ -23,6 +23,6 @@ Si vous obtenez un message d'erreur ou bien vous constatez un comportement anorm
 
 ### Pourquoi n'y a t'il aucune donnée ? {#nodata}
 
-Vérifier qu'au moins un partage alimente l'application : voir [comment partager à l'application depuis Isogeo](/usage/configuration.md).
+Vérifier qu'au moins un partage alimente l'application : voir [comment partager à l'application depuis Isogeo](/configuration/isogeo.md).
 
 
