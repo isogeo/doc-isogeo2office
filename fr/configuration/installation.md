@@ -23,7 +23,7 @@ Pour mettre à jour l'application, il suffit de remplacer tous les fichiers du d
 
 ## Structure du dossier d'installation
 
-Une seule chose à retenir ? i`isogeo2office.exe` : exécutable de l'application. C'est le seul fichier à ouvrir pour utiliser le programme.
+Une seule chose à retenir ? `isogeo2office.exe` : exécutable de l'application. C'est le seul fichier à ouvrir pour utiliser le programme.
 
 Par défaut, l'application embarque certains dossiers et fichiers qui sont de 2 types :
 
@@ -39,8 +39,6 @@ Quelques-uns des dossiers d'usage :
 * `_templates`: dossier où stocker les modèles pour l'export en format word \(voir [la section dédiée](/exporter/export-word/modele-dexport.md)\)
 
 * `_thumbnails`: dossier où est stocké le fichier Excel _thumbnails.xlsx_ utilisé pour gérer les vignettes pour l'export en format word \(voir [la section dédiée](/exporter/export-word/modele-dexport.md)\)
-
-
 
 ![&quot;Aperçu du dossier d&apos;installation&quot;](/assets/isogeo2office_install_dir.png)
 
