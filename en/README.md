@@ -1,4 +1,4 @@
-!["Logo Isogeo"](https://www.isogeo.com/images/logo.png)
+!["Logo Isogeo"](https://www.isogeo.com/images/isogeo/logo-isogeo.png)
 
 # Isogeo to Office
 
