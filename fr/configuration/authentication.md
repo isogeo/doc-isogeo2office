@@ -4,19 +4,19 @@
 
 Au premier lancement de l'application ou si l'authentification a échoué (paramètres expirés...), le formulaire d'authentification s'affiche :
 
-!["Formulaire d'authentification d'Isogeo to Office à l'API Isogeo"](/assets/i2o_auth_form.png)
+![Formulaire d&apos;authentification d&apos;Isogeo to Office à l&apos;API Isogeo](/assets/i2o_auth_form.png)
 
 ### Authentifier l'application
 
 1. Cliquer sur le bouton `Importer le fichier "client_secrets.json" transmis..."
 2. Sélectionner le fichier téléchargé (il est possible de changer le filtre sur le type de fichier) :
 
-    !["Sélectionner le fichier d'authentification dans Windows"](/assets/i2o_auth_credentials_picker.png)
+    ![Sélectionner le fichier d&apos;authentification dans Windows](/assets/i2o_auth_credentials_picker.png)
 
 3. Si l'authentification est bonne, cliquer sur le bouton `Appliquer`. Si elle n'est pas bonne, [demander un accès](#auth-request).
 4. Après une première requête, les informations de l'application sont mises à jour dans l'onglet `Paramètres`:
 
-!["Informations sur l\'application"](/assets/i2o_settings_authentication_info.png)
+![Informations sur l&apos;application](/assets/i2o_settings_authentication_info.png)
 
 ---
 

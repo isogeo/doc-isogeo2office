@@ -2,7 +2,9 @@
 
 ## Résultat
 
-Voici un aperçu du fichier en sortie :![](http://help.isogeo.com/fr/images/isogeo2office_word_result.png "Aperçu du fichier Word produit en sortie par Isogeo to Office")
+Voici un aperçu du fichier en sortie :
+
+!["Aperçu du fichier Word produit en sortie par Isogeo to Office"](/assets/i2o_word_result.png)
 
 ---
 
@@ -12,7 +14,7 @@ Voici un aperçu du fichier en sortie :![](http://help.isogeo.com/fr/images/isog
 
 Liste déroulant qui permet de choisir le modèle Word à appliquer pour générer les fichiers. Correspond à la liste des fichiers Word stockés dans le dossier _templates_ de l'installation.
 
-Voir [la section dédiée](/exporter/export-word/modele-dexport.md "").
+Voir [la section dédiée](/exporter/export-word/modele-dexport.md).
 
 ### Personnaliser le nom des fichiers {#custom_filenames}
 

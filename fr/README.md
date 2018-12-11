@@ -1,4 +1,4 @@
-![](https://www.isogeo.com/images/isogeo/logo-isogeo.png)
+![Logo Isogeo](https://www.isogeo.com/images/isogeo/logo-isogeo.png)
 
 # Isogeo to Office
 
@@ -18,7 +18,6 @@ Cela répond à différents besoins :
 Elle se présente sous la forme d'un exécutable Windows autonome, qui démarre une interface graphique minimaliste permettant à l'utilisateur de gérer l'authentification à la plateforme Isogeo, d'avoir un aperçu global des métadonnées exportables et de régler facilement les différentes options.
 
 ![Isogeo To Office](/assets/i2o_overview.png "Vue des deux onglets")
-
 
 ### Vidéo de présentation
 

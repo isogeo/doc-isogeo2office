@@ -38,6 +38,3 @@ A titre indicatif, voici un schéma du déroulé technique de l'application :
 * ordinateur Windows 7+ mais support uniquement sur Windows 10+ ;
 * droits d’écriture sur le dossier d’installation et sur celui de sortie ;
 * une connexion autorisée et configurée \(proxy, pare-feu...\) vers [https://*.api.isogeo.com](https://api.isogeo.com/about)
-
-
-
