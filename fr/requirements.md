@@ -17,7 +17,7 @@
 
 Si la connexion doit se faire via un proxy, quelques réglages supplémentaires sont à réaliser.
 
-### indiquer les paramètres du proxy à l'application {#proxy_app}
+### Indiquer les paramètres du proxy à l'application {#proxy_app}
 
 Ajouter les paramètres de proxy au [fichier de configuration de l'environnement](configuration/settings.md#environment_file) :
 
