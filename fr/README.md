@@ -27,7 +27,7 @@ L'application, dans son ancienne version, a été présentée lors du webinaire 
 https://www.youtube.com/watch?v=-RKkDyMbqAg
 {% endyoutube %}
 
----
+----
 
 ## Caractéristiques
 
@@ -41,3 +41,7 @@ L'application est disponible en 2 langues :
 ### Licence
 
 Cette application est développée principalement par Isogeo. Le code source est ouvert et placé sous [licence LGPL3](https://github.com/isogeo/isogeo-2-office/blob/master/LICENSE).
+
+----
+
+Date de la dernière mise à jour de cette documentation : **{{ gitbook.time | date("DD/MM/YYYY") }}**.
