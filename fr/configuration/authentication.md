@@ -30,5 +30,4 @@ Dans les paramètres, il est également possible de changer les paramètres d'au
 
 Si l'utilisateur ne dispose pas de clés d'authentification, il peut en faire la demande en cliquant sur le bouton `Demander un accès` ou directement sur [le formulaire en ligne](https://pipedrivewebforms.com/form/427397f21f1417e5b937b673dfa12c9052944).
 
-
 A tout moment, l'utilisateur peut entrer de nouvelles clés en cliquant sur le bouton `Accès`.

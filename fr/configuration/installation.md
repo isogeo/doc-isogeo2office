@@ -40,5 +40,4 @@ Quelques-uns des dossiers d'usage :
 
 * `_thumbnails`: dossier où est stocké le fichier Excel _thumbnails.xlsx_ utilisé pour gérer les vignettes pour l'export en format word \(voir [la section dédiée](/exporter/export-word/modele-dexport.md)\)
 
-![&quot;Aperçu du dossier d&apos;installation&quot;](/assets/isogeo2office_install_dir.png)
-
+![Aperçu du dossier d&apos;installation](/assets/isogeo2office_install_dir.png)

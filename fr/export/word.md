@@ -4,7 +4,7 @@
 
 Voici un aperçu du fichier en sortie :
 
-!["Aperçu du fichier Word produit en sortie par Isogeo to Office"](/assets/i2o_word_result.png)
+![Aperçu du fichier Word produit en sortie par Isogeo to Office](/assets/i2o_word_result.png)
 
 ---
 

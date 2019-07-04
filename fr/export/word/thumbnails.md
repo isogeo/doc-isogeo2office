@@ -1,4 +1,4 @@
-# Gestion des vignettes 
+# Gestion des vignettes
 
 Depuis la version 2.0.0 de l'application, il est possible d'intégrer des vignettes dans les exports Word en établissant une correspondance entre une image et une métadonnée.
 
@@ -28,7 +28,7 @@ Avant toute chose, s'assurer d'avoir fermé le fichier Excel.
 1. Dans l'onglet `Paramètres`, ouvrir la partie `Word` et cliquer sur le bouton `Editer la table de correspondance`.
 2. Compléter la colonne 3 avec les chemins absolus vers les images
 
-!["Fichier Excel de correspondance des vignettes"](/assets/i2o_word_thumbnails_table.png)
+![Fichier Excel de correspondance des vignettes](/assets/i2o_word_thumbnails_table.png)
 
 #### Précautions
 
@@ -37,10 +37,10 @@ Attention à ne pas :
 - changer le nom de l'onglet (_i2o_thumbnails_)
 - changer le nom des colonnes
 
---- 
+----
 
 ## Questions fréquentes {#faq}
 
 ### Je ne veux pas d'image dans mes exports {#no-image}
 
-Il suffit de [retirer la balise _varThumbnail_ dans le modèle d'export](/export/word/template.html).
+Il suffit de [retirer la balise _varThumbnail_ dans le modèle d'export](/export/word/template.md).

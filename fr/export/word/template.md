@@ -5,18 +5,19 @@ L'export au format Word fonctionne sur la base d'un modèle afin que l'utilisate
 Il est possible de créer autant de modèles que besoin.
 
 Voici un aperçu du modèle par défaut :
-![](http://help.isogeo.com/fr/images/isogeo2office_word_template.png "Aperçu du modèle Word à personnaliser pour les exports Word")
+
+![Aperçu du modèle Word à personnaliser pour les exports Word](/assets/word_template_overview.png)
 
 ## Syntaxe {#syntax}
 
 La syntaxe est celle du moteur de _templating_ Jinja2. Elle fonctionne sur le remplacement automatique de balises par des valeurs générées ou récupérées.
 
-Une balise est caractérisée par les doubles accolades qui l'encadrent: ```{{ ``` et ``` }}```.
+Une balise est caractérisée par les doubles accolades qui l'encadrent: ```{{``` et ```}}```.
 
 Implémentée dans isogeo2office, elle permet :
 
 * de choisir d'afficher ou pas certains champs des métadonnées Isogeo dans les fichiers exportés ;
-* de maintenir le style et la mise en forme, puisque les styles et formats appliqués aux balises le seront aussi aux valeurs remplacées. Par exemple, si la balise de titre est en **gras** dans le modèle, le titre sera bien en gras dans le fichier exporté. 
+* de maintenir le style et la mise en forme, puisque les styles et formats appliqués aux balises le seront aussi aux valeurs remplacées. Par exemple, si la balise de titre est en **gras** dans le modèle, le titre sera bien en gras dans le fichier exporté.
 
 ## Balises et valeurs possibles {#markups}
 
