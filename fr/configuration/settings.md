@@ -60,11 +60,11 @@ D'autres paramètres peuvent être réglés
 
 ### Fichier de configuration de l'environnement {#environment_file}
 
-Dans certaines configurations avancées, il est possible d'utiliser un fichier de configuration d'environnement `.env`.
+Dans certaines configurations avancées (notamment pour configurer nu proxy), il est possible d'utiliser un fichier de configuration d'environnement `.env`.
 
 Structure type du fichier :
 
-```conf
+```ini
 # GLOBAL
 ISOGEO_PLATFORM=prod
 OAUTHLIB_INSECURE_TRANSPORT=0
