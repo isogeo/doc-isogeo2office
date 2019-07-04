@@ -17,6 +17,11 @@ Pour plus de simplicité, comme pour n'importe quelle application Windows, il es
 
 ## Mise à jour {#update}
 
+Lors du lancement, l'application vérifie si une nouvelle version est disponible et notifie l'utilisateur :
+
+![Notification - A jour](/assets/notification_up_to_date.png)
+![Notification - Nouvelle version](/assets/notification_outdated.png)
+
 Pour mettre à jour l'application, il suffit de remplacer tous les fichiers du dossier par ceux de la nouvelle version. Les préférences et les paramètres d'authentification sont conservés.
 
 ---

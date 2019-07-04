@@ -8,24 +8,24 @@ La majorité des paramètres peuvent être réglés directement depuis l'interfa
 
 ### Options d'export {#export}
 
-### Dossier de sortie {#output_folder}
+#### Dossier de sortie {#output_folder}
 
 Par défaut, les fichiers générés sont stockés dans le sous-dossier `_output`. Dans ce menu, il est possible de :
 
 - choisir un autre dossier de sortie
 - ouvrir le dossier de sortie
 
-### Personnaliser le nom des fichiers {#filenames}
+#### Personnaliser le nom des fichiers {#filenames}
 
 Le nom du fichier de sortie est de la forme : _\[PREFIXE\]_\__\[MD-UID\]_\_**\[MD-TITRE\]**\__\[DATE-HEURE\]_. Seul le titre de la métadonnée est obligatoirement présent dans le nom du fichier. Les autres éléments servent à garantir l'unicité des noms de fichiers en évitant les conflits entre les métadonnées de même titre \(par exemple, issues de groupes de travail différents\).
 
-#### Préfixe
+##### Préfixe
 
 Champ libre permettant de définir le début des noms des fichiers, dans les limites des [règles inhérentes à Microsoft Windows](https://msdn.microsoft.com/fr-fr/library/windows/desktop/aa365247%28v=vs.85%29.aspx). Il est également recommandé d'éviter les caractères spéciaux.
 
 Valeur par défaut : _isogeo2office_.
 
-#### Date
+##### Date
 
 Valeurs possibles :
 
@@ -35,7 +35,7 @@ Valeurs possibles :
 
 Valeur par défaut : _rien_.
 
-#### UUID \(_Universal Unique Identifier_\)
+##### UUID \(_Universal Unique Identifier_\)
 
 Il s'agit de l'identifiant unique de la métadonnée Isogeo.
 Il est possible de personnaliser le nombre de caractères à inclure : de 0 à 8.
