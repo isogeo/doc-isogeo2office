@@ -13,10 +13,8 @@ Les métadonnées sont réparties en 4 onglets correspondant à leur type :
 
 Voici un aperçu du tableur en sortie \(sauf les styles qui ont été appliqués manuellement après la première ouverture\) :
 
-!["Aperçu du tableur Excel produit par Isogeo to Office"](/assets/isogeo2office_excel_result.png)
+![Aperçu du tableur Excel produit par Isogeo to Office](/assets/isogeo2office_excel_result.png)
 
 ## Options
 
-### Nom du fichier de sortie
-
-Il est possible de personnaliser le nom du fichier de sortie. La valeur par défaut est `isogeo2xlsx.xlsx`. A noter qu'il est recommandé d'éviter d'utiliser des caractères spéciaux dans le nom du fichier.
+![Paramètres de l&apos;export Excel](/assets/settings_excel.png)

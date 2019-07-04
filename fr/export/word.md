@@ -10,30 +10,19 @@ Voici un aperçu du fichier en sortie :
 
 ## Options {#options}
 
+![Paramètres de l&apos;export Word](/assets/settings_word.png)
+
 ### Choix du modèle à appliquer {#template_picker}
 
 Liste déroulant qui permet de choisir le modèle Word à appliquer pour générer les fichiers. Correspond à la liste des fichiers Word stockés dans le dossier _templates_ de l'installation.
 
-Voir [la section dédiée](/exporter/export-word/modele-dexport.md).
+Voir [la section dédiée](/export/word/template.md).
 
-### Personnaliser le nom des fichiers {#custom_filenames}
+### Gestion des vignettes {#thumbnails_option}
 
-Le nom du fichier de sortie est de la forme : _\[PREFIXE\]_\__\[MD-UID\]_\_**\[MD-TITRE\]**\__\[DATE-HEURE\]_. Seul le titre de la métadonnée est obligatoirement présent dans le nom du fichier. Les autres éléments servent à garantir l'unicité des noms de fichiers en évitant les conflits entre les métadonnées de même titre \(par exemple, issues de groupes de travail différents\).
+Les boutons permettent de gérer la table de correspondance des vignettes :
 
-#### Préfixe
+- éditer la table de correspondance dans Microsoft Excel
+- générer ou mettre à jour la table de correspondance à partir d&apos;Isogeo
 
-Champ libre permettant de définir le début des noms des fichiers, dans les limites des [règles inhérentes à Microsoft Windows](https://msdn.microsoft.com/fr-fr/library/windows/desktop/aa365247%28v=vs.85%29.aspx). Il est également recommandé d'éviter les caractères spéciaux.
-
-Valeur par défaut : _isogeo2docx_.
-
-#### UID \(_Unique Identifier_\)
-
-Il s'agit de l'identifiant unique de la métadonnée Isogeo. Il est possible de personnaliser le nombre de caractères à inclure : de 0 à 8.
-
-#### Date
-
-Valeurs possibles :
-
-* 0 : rien n'est ajouté au nom du fichier ;
-* 1 : seule la date est ajoutée, sous la forme \`AAAA-MM-JJ\` ;
-* 2 : la date et l'heure est ajoutée, sous la forme \`AAAA-MM-JJ-HHmmSS\`.
+Pour en savoir plus sur la gestion des vignettes voir [la section dédiée](/export/word/thumbnails.md).
