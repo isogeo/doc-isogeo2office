@@ -10,6 +10,7 @@
 * [Installation](configuration/installation.md)
 * [Alimenter depuis APP \(isogeo.com\)](/configuration/isogeo.md)
 * [Authentification](configuration/authentication.md)
+* [Préférences](configuration/settings.md)
 
 ## Exporter
 
