@@ -3,7 +3,8 @@
 ## Présentation générale
 
 * [Introduction](README.md)
-* [Fonctionnement et prérequis](PREREQUISITES.md)
+* [Fonctionnement](general.md)
+* [Prérequis](requirements.md)
 
 ## Installation et configuration
 
