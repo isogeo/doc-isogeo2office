@@ -118,7 +118,7 @@ jobs:
 
       - run:
           name: Generate PDF
-          command: yarn gitbook pdf ./ dist/admin/Isogeo_DOC_IsogeoToOffice.pdf
+          command: yarn gitbook pdf ./ dist/isogeo2office/Isogeo_DOC_IsogeoToOffice.pdf
 
       - persist_to_workspace:
           root: *workspace_root
@@ -145,6 +145,7 @@ jobs:
           name: Upload to Azure Blob Storage
           command: rclone sync dist/isogeo2office qa:\$web/isogeo2office --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
 
+  # Deploy to PROD
   deploy-prod:
     <<: *golang_container
     steps:
@@ -190,7 +191,7 @@ workflows:
 
       - deploy-qa:
           requires:
-            - build
+            - pdf
 
       - deploy-prod:
           requires:
