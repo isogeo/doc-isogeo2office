@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/isogeo/doc-isogeo2office.svg?style=svg)](https://circleci.com/gh/isogeo/doc-isogeo2office)
-
 # Isogeo To Office documentation
+
+[![CircleCI](https://circleci.com/gh/isogeo/doc-isogeo2office.svg?style=svg)](https://circleci.com/gh/isogeo/doc-isogeo2office)
 
 Content, structure and media of the website documentation. It's part of the Isogeo online documentations ([see Github repositories](https://github.com/search?q=topic%3Adocumentation+org%3Aisogeo&type=Repositories)).
 
@@ -8,17 +8,30 @@ Content, structure and media of the website documentation. It's part of the Isog
 
 It's based on Gitbook v3.2.* which is:
 
-* [a book format](https://github.com/GitbookIO/gitbook)
-* [a toolchain](https://toolchain.gitbook.com/)
+- [a book format](https://github.com/GitbookIO/gitbook)
+- [a toolchain](https://toolchain.gitbook.com/)
 
 ## Deployment
 
 It's deployed on Isogeo Azure (Storage v2 Static website) using CircleCI ([see config](https://github.com/isogeo/doc-isogeo2office/blob/master/.circleci/config.yml)):
 
-* QA: https://qaisogeohelp.z28.web.core.windows.net/isogeo2office/
-* PROD: https://prodisogeohelp.z28.web.core.windows.net/isogeo2office/
+- each commit triggers a deploy on QA :
 
-Deployment rules:
+  - <http://help.qa.isogeo.com/isogeo2office>
+  - <https://qaisogeohelp.z28.web.core.windows.net/isogeo2office>
 
-* each commit triggers a deployment on QA
-* each tagged commit triggers a deployment on PROD - [see tags](https://github.com/isogeo/doc-isogeo2office/tags)
+- each tagged commit triggers a deploy on PROD:
+
+  - <http://help.isogeo.com/isogeo2office>
+  - <https://prodisogeohelp.z28.web.core.windows.net/isogeo2office>
+
+## Build
+
+Git clone this repository then:
+
+```powershell
+yarn
+yarn dev
+yarn gitbook install
+yarn gitbook serve
+```
