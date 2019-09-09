@@ -35,13 +35,13 @@ jobs:
   - script: yarn global add gitbook
     displayName: 'Install Gitbook'
 
-  - script: yarn gitbook install
-    displayName: 'Install Gitbook dependencies'
-
   - script: yarn install --frozen-lockfile --ignore-engines
     displayName: 'Install dependencies'
 
-  - script: yarn build ./ dist/
+  - script: yarn gitbook install
+    displayName: 'Install Gitbook dependencies'
+
+  - script: yarn gitbook build ./ dist/
     displayName: 'Build Gitbook HTML output'
 
   - task: PublishPipelineArtifact@1
