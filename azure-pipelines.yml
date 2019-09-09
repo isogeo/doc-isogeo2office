@@ -103,14 +103,14 @@ jobs:
       artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.Id)'
       targetPath: '$(System.DefaultWorkingDirectory)/book_to_upload'
 
-#  - task: GitHubRelease@1
-#    inputs:
-#      gitHubConnection: 'github_isogeo'
-#      repositoryName: '$(Build.Repository.Name)'
-#      action: 'edit'
-#      target: '$(Build.Id)'
-#      changeLogCompareToRelease: 'lastFullRelease'
-#      changeLogType: 'issueBased'
+  - task: GitHubRelease@1
+    inputs:
+      gitHubConnection: 'github_isogeo'
+      repositoryName: '$(Build.Repository.Name)'
+      action: 'edit'
+      target: '$(Build.SourceVersion)'
+      changeLogCompareToRelease: 'lastFullRelease'
+      changeLogType: 'issueBased'
 
   - task: AzureFileCopy@3
     inputs:
