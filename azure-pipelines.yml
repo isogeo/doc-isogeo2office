@@ -1,0 +1,21 @@
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+  tags:
+    include:
+    - "*"
+
+pr:
+- master
+
+jobs:
+- job: 'BUILD'
+  pool:
+    vmImage: "ubuntu-16.04"
+
+  steps:
+  - task: NodeTool@0 
+    inputs:
+      versionSpec: '10.15.x'
