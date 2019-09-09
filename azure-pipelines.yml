@@ -11,7 +11,7 @@ pr:
 - master
 
 jobs:
-- job: 'BUILD'
+- job: 'Build documentation'
   pool:
     vmImage: "windows-2019"
   
@@ -19,5 +19,12 @@ jobs:
   - task: NodeTool@0 
     inputs:
       versionSpec: '10.16.x'
+    displayName: 'Install Node.js 10.16.x'
+ 
+  - task: CacheBeta@0
+    inputs:
+      key: yarn | $(Agent.OS) | $(Build.SourcesDirectory)/yarn.lock
+      path: $(Pipeline.Workspace)/.cache/yarn
+    displayName: 'Cache yarn packages'
 
-  - script: yarn
+  - script: yarn --frozen-lockfile
