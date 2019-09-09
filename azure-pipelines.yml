@@ -67,17 +67,17 @@ jobs:
   pool:
     vmImage: "windows-2019"
 
-
   steps:
   - task: DownloadPipelineArtifact@2
     inputs:
       buildType: 'current'
       artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.Id)'
-      targetPath: '$(System.DefaultWorkingDirectory)'
+      targetPath: '$(System.DefaultWorkingDirectory)/book_to_upload'
 
   - task: AzureFileCopy@3
     inputs:
-      SourcePath: '$(System.DefaultWorkingDirectory)'
+      cleanTargetBeforeCopy: true
+      SourcePath: '$(System.DefaultWorkingDirectory)/book_to_upload'
       azureSubscription: 'Isogeo - MPN(82885610-5841-4749-8d71-46f56b643ad2)'
       Destination: 'AzureBlob'
       storage: 'qaisogeohelp'
@@ -95,6 +95,12 @@ jobs:
     contains(variables['Build.SourceBranch'], 'tags')
 
   steps:
+  - task: DownloadPipelineArtifact@2
+    inputs:
+      buildType: 'current'
+      artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.Id)'
+      targetPath: '$(System.DefaultWorkingDirectory)/book_to_upload'
+
 #  - task: GitHubRelease@1
 #    inputs:
 #      gitHubConnection: 'github_isogeo'
@@ -106,9 +112,10 @@ jobs:
 
   - task: AzureFileCopy@3
     inputs:
-      SourcePath: '$(System.DefaultWorkingDirectory)/dist'
+      cleanTargetBeforeCopy: true
+      SourcePath: '$(System.DefaultWorkingDirectory)/book_to_upload'
       azureSubscription: 'Isogeo - MPN(82885610-5841-4749-8d71-46f56b643ad2)'
       Destination: 'AzureBlob'
       storage: 'prodisogeohelp'
       ContainerName: '$web'
-      BlobPrefix: 'test/$(project_name_clean)'
+      BlobPrefix: '$(project_name_clean)'
