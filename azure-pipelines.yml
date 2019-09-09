@@ -50,8 +50,9 @@ jobs:
   - task: DeleteFiles@1
     displayName: 'Remove files to be ignored in publication'
     inputs:
-      SourceFolder: '$(System.DefaultWorkingDirectory)'
+      SourceFolder: '$(System.DefaultWorkingDirectory)/dist'
       Contents: |
+        .gitignore
         azure-pipelines.yml
         package.json
         yarn.lock
