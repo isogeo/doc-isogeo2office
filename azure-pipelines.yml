@@ -13,9 +13,11 @@ pr:
 jobs:
 - job: 'BUILD'
   pool:
-    vmImage: "ubuntu-16.04"
+    vmImage: "windows-2019"
   
   steps:
   - task: NodeTool@0 
     inputs:
       versionSpec: '10.15.x'
+
+  - script: yarn
