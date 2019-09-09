@@ -128,7 +128,7 @@ jobs:
       changeLogType: 'issueBased'
 
   - task: AzureFileCopy@3
-  displayName: 'Copy files to Azure Storage Blob: prodisogeohelp/$web/$(project_name_clean)'
+    displayName: 'Copy files to Azure Storage Blob: prodisogeohelp/$web/$(project_name_clean)'
     inputs:
       cleanTargetBeforeCopy: true
       SourcePath: '$(System.DefaultWorkingDirectory)/book_to_upload'
