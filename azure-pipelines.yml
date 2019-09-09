@@ -2,6 +2,7 @@
 variables:
   project_name: "Documentation - Isogeo To Office"
   project_name_clean: "isogeo2office"
+  yarn_cache_folder: $(Pipeline.Workspace)/.yarn
 
 trigger:
   batch: true
@@ -26,11 +27,11 @@ jobs:
       versionSpec: '10.15.x'
     displayName: 'Install Node.js 10.15.x'
  
-  # - task: CacheBeta@0
-  #   inputs:
-  #     key: yarn | $(Agent.OS) | $(Build.SourcesDirectory)/yarn.lock
-  #     path: $(Pipeline.Workspace)/.cache/yarn
-  #   displayName: 'Cache yarn packages'
+  - task: CacheBeta@0
+    inputs:
+      key: yarn | $(Agent.OS) | yarn.lock
+      path: $(yarn_cache_folder)
+    displayName: 'Cache Yarn packages'
 
   - script: yarn global add gitbook
     displayName: 'Install Gitbook'
