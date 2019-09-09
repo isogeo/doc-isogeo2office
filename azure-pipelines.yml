@@ -59,9 +59,25 @@ jobs:
       path: $(System.DefaultWorkingDirectory)/dist
       artifact: '$(project_name)_$(Build.SourceBranchName)_$(Build.Id)'
 
+# PUBLISH TO QA
+# only with a tagged commit (see: https://github.com/MicrosoftDocs/vsts-docs/issues/3281)
+- job: 'PublishQA'
+  displayName: "Publish to QA"
+  dependsOn: 'Build'
+  pool:
+    vmImage: "windows-2019"
+
+
+  steps:
+  - task: DownloadPipelineArtifact@2
+    inputs:
+      buildType: 'current'
+      artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.Id)'
+      targetPath: '$(System.DefaultWorkingDirectory)'
+
   - task: AzureFileCopy@3
     inputs:
-      SourcePath: '$(System.DefaultWorkingDirectory)/dist'
+      SourcePath: '$(System.DefaultWorkingDirectory)'
       azureSubscription: 'Isogeo - MPN(82885610-5841-4749-8d71-46f56b643ad2)'
       Destination: 'AzureBlob'
       storage: 'qaisogeohelp'
@@ -70,7 +86,8 @@ jobs:
 
 # PUBLISH
 # only with a tagged commit (see: https://github.com/MicrosoftDocs/vsts-docs/issues/3281)
-- job: 'Publish'
+- job: 'PublishPROD'
+  displayName: "Publish to PROD"
   dependsOn: 'Build'
   pool:
     vmImage: "windows-2019"
@@ -92,6 +109,6 @@ jobs:
       SourcePath: '$(System.DefaultWorkingDirectory)/dist'
       azureSubscription: 'Isogeo - MPN(82885610-5841-4749-8d71-46f56b643ad2)'
       Destination: 'AzureBlob'
-      storage: 'qaisogeohelp'
+      storage: 'prodisogeohelp'
       ContainerName: '$web'
       BlobPrefix: 'test/$(project_name_clean)'
