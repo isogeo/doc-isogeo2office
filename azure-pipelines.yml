@@ -11,7 +11,7 @@ pr:
 - master
 
 jobs:
-- job: 'Build documentation'
+- job: 'Build'
   pool:
     vmImage: "windows-2019"
   
@@ -28,3 +28,4 @@ jobs:
     displayName: 'Cache yarn packages'
 
   - script: yarn --frozen-lockfile
+    displayName: 'Install dependencies'
