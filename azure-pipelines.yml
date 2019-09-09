@@ -78,7 +78,8 @@ jobs:
       targetPath: '$(System.DefaultWorkingDirectory)/book_to_upload'
 
   - powershell: |
-      Rename-Item -Path "book_to_upload/robots_qa.txt" -NewName "book_to_upload/robots.txt"
+      Rename-Item -Path "robots_qa.txt" -NewName "robots.txt"
+    workingDirectory: '$(System.DefaultWorkingDirectory)/book_to_upload'
     displayName: 'Rename robots.txt file for QA'
 
   - task: AzureFileCopy@3
