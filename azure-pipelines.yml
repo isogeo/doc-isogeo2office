@@ -21,11 +21,14 @@ jobs:
       versionSpec: '10.16.x'
     displayName: 'Install Node.js 10.16.x'
  
-  - task: CacheBeta@0
-    inputs:
-      key: yarn | $(Agent.OS) | $(Build.SourcesDirectory)/yarn.lock
-      path: $(Pipeline.Workspace)/.cache/yarn
-    displayName: 'Cache yarn packages'
+  # - task: CacheBeta@0
+  #   inputs:
+  #     key: yarn | $(Agent.OS) | $(Build.SourcesDirectory)/yarn.lock
+  #     path: $(Pipeline.Workspace)/.cache/yarn
+  #   displayName: 'Cache yarn packages'
 
   - script: yarn --frozen-lockfile
     displayName: 'Install dependencies'
+
+  - script: yarn build ./ dist/
+    displayName: 'Build Gitbook HTML output'
