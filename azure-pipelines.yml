@@ -2,7 +2,7 @@
 variables:
   project_name: "Documentation - Isogeo To Office"
   project_name_clean: "isogeo2office"
-  yarn_cache_folder: $(Pipeline.Workspace)/.yarn
+  yarn_cache_folder: $(Pipeline.Workspace)/.yarn/cache
 
 trigger:
   batch: true
@@ -28,8 +28,9 @@ jobs:
     displayName: 'Install Node.js 10.15.x'
  
   - task: CacheBeta@0
+    continueOnError: true
     inputs:
-      key: yarn | $(Agent.OS) | yarn.lock
+      key: "isogeo-help-yarn-$(Agent.OS)"
       path: $(yarn_cache_folder)
     displayName: 'Cache Yarn packages'
 
