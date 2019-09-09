@@ -84,6 +84,7 @@ jobs:
     displayName: 'Rename robots.txt file for QA'
 
   - task: AzureFileCopy@3
+    displayName: 'Copy files to Azure Storage Blob: qaisogeohelp/$web/$(project_name_clean)'
     inputs:
       cleanTargetBeforeCopy: true
       SourcePath: '$(System.DefaultWorkingDirectory)/book_to_upload'
@@ -117,6 +118,7 @@ jobs:
     displayName: 'Rename robots.txt file for PROD'
 
   - task: GitHubRelease@1
+    displayName: 'Publish release on Github'
     inputs:
       gitHubConnection: 'github_isogeo'
       repositoryName: '$(Build.Repository.Name)'
@@ -126,6 +128,7 @@ jobs:
       changeLogType: 'issueBased'
 
   - task: AzureFileCopy@3
+  displayName: 'Copy files to Azure Storage Blob: prodisogeohelp/$web/$(project_name_clean)'
     inputs:
       cleanTargetBeforeCopy: true
       SourcePath: '$(System.DefaultWorkingDirectory)/book_to_upload'
