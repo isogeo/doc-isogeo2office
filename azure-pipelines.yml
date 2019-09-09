@@ -1,3 +1,8 @@
+# Global variables
+variables:
+  project_name: "Documentation - Isogeo To Office"
+  project_name_clean: "DocIsogeoToOffice"
+
 trigger:
   batch: true
   branches:
@@ -37,7 +42,7 @@ jobs:
     displayName: 'Build Gitbook HTML output'
 
   - task: PublishPipelineArtifact@1
-    displayName: 'Publish Artifact: $(Build.Repository.Name)'
+    displayName: 'Publish Artifact: $(project_name)'
     inputs:
       path: $(System.DefaultWorkingDirectory)/dist
-      artifact: '$(Build.Repository.Name)_$(Build.SourceBranchName)_$(Build.SourceVersion)'
+      artifact: '$(project_name)_$(Build.SourceBranchName)_$(Build.SourceVersion)'
