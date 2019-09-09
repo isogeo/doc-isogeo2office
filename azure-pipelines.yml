@@ -110,6 +110,12 @@ jobs:
       artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.BuildId)'
       targetPath: '$(System.DefaultWorkingDirectory)/book_to_upload'
 
+  - powershell: |
+      Rename-Item -Path "robots_prod.txt" -NewName "robots.txt"
+      Remove-Item -Path "robots_qa.txt"
+    workingDirectory: '$(System.DefaultWorkingDirectory)/book_to_upload'
+    displayName: 'Rename robots.txt file for PROD'
+
   - task: GitHubRelease@1
     inputs:
       gitHubConnection: 'github_isogeo'
