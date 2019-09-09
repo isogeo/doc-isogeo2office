@@ -14,6 +14,8 @@ jobs:
 - job: 'Build'
   pool:
     vmImage: "windows-2019"
+    demands:
+    - yarn
   
   steps:
   - task: NodeTool@0 
@@ -35,3 +37,9 @@ jobs:
 
   - script: yarn build ./ dist/
     displayName: 'Build Gitbook HTML output'
+
+  - task: PublishPipelineArtifact@1
+    displayName: 'Publish Artifact: $(Build.Repository.Name)'
+    inputs:
+      path: $(System.DefaultWorkingDirectory)/dist
+      artifact: '$(Build.Repository.Name)_$(Build.SourceBranchName)_$(Build.SourceVersion)'
