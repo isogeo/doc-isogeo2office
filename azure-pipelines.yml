@@ -77,7 +77,7 @@ jobs:
       artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.BuildId)'
       targetPath: '$(System.DefaultWorkingDirectory)/book_to_upload'
 
-    - script: Rename-Item -Path "book_to_upload/robots_qa.txt" -NewName "book_to_upload/robots.txt"
+  - script: Rename-Item -Path "book_to_upload/robots_qa.txt" -NewName "book_to_upload/robots.txt"
     displayName: 'Rename robots.txt file for QA'
 
   - task: AzureFileCopy@3
