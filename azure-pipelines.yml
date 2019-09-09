@@ -14,7 +14,10 @@ jobs:
 - job: 'BUILD'
   pool:
     vmImage: "ubuntu-16.04"
-
+    demands:
+    - yarn
+    - node.js
+  
   steps:
   - task: NodeTool@0 
     inputs:
