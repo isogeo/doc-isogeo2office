@@ -83,6 +83,14 @@ jobs:
     workingDirectory: '$(System.DefaultWorkingDirectory)/book_to_upload'
     displayName: 'Rename robots.txt file for QA'
 
+  - task: AzurePowerShell@4
+    displayName: 'Delete every files into the blob'
+    inputs:
+      azureSubscription: 'Isogeo - MPN(82885610-5841-4749-8d71-46f56b643ad2)'
+      ScriptType: 'InlineScript'
+      Inline: 'Remove-AzureStorageBlob -Container "$web" -Blob "$(project_name_clean)/*"'
+      azurePowerShellVersion: 'LatestVersion'
+
   - task: AzureFileCopy@3
     inputs:
       cleanTargetBeforeCopy: true
