@@ -9,6 +9,7 @@
         "isogeo",
         "isogeo2office",
         "isogeo to office",
+        "export",
         "help",
         "métadonnées",
         "catalogage",
@@ -42,7 +43,6 @@
         "gitbook-plugin-youtube": "^1.1.0"
     },
     "devDependencies": {
-        "ebook-convert": "^2.0.1",
         "gitbook-plugin-redirect": "^0.0.7"
     }
 }
