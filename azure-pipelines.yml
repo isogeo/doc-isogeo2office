@@ -60,7 +60,7 @@ jobs:
     displayName: 'Publish Artifact: $(project_name)'
     inputs:
       path: $(System.DefaultWorkingDirectory)/dist
-      artifact: '$(project_name)_$(Build.SourceBranchName)_$(Build.Id)'
+      artifact: '$(project_name)_$(Build.SourceBranchName)_$(Build.BuildId)'
 
 # PUBLISH TO QA
 - job: 'PublishQA'
@@ -73,7 +73,7 @@ jobs:
   - task: DownloadPipelineArtifact@2
     inputs:
       buildType: 'current'
-      artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.Id)'
+      artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.BuildId)'
       targetPath: '$(System.DefaultWorkingDirectory)/book_to_upload'
 
   - task: AzureFileCopy@3
@@ -100,7 +100,7 @@ jobs:
   - task: DownloadPipelineArtifact@2
     inputs:
       buildType: 'current'
-      artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.Id)'
+      artifactName: '$(project_name)_$(Build.SourceBranchName)_$(Build.BuildId)'
       targetPath: '$(System.DefaultWorkingDirectory)/book_to_upload'
 
   - task: GitHubRelease@1
