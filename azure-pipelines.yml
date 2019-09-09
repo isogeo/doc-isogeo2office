@@ -122,8 +122,10 @@ jobs:
     inputs:
       gitHubConnection: 'github_isogeo'
       repositoryName: '$(Build.Repository.Name)'
-      action: 'edit'
+      action: 'create'
       target: '$(Build.SourceVersion)'
+      tagSource: 'gitTag'
+      assets: '$(Build.ArtifactStagingDirectory)/book_to_upload/*'
       changeLogCompareToRelease: 'lastFullRelease'
       changeLogType: 'issueBased'
 
