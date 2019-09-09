@@ -79,6 +79,7 @@ jobs:
 
   - powershell: |
       Rename-Item -Path "robots_qa.txt" -NewName "robots.txt"
+      Remove-Item -Path "robots_prod.txt"
     workingDirectory: '$(System.DefaultWorkingDirectory)/book_to_upload'
     displayName: 'Rename robots.txt file for QA'
 
