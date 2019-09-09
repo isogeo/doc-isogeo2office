@@ -190,12 +190,12 @@ workflows:
           filters: *default_filters
 
       - deploy-qa:
-          requires:
-            - pdf
+          # requires:
+          #   - pdf
 
       - deploy-prod:
-          requires:
-            - pdf
+          # requires:
+          #   - pdf
           filters:
             <<: *default_filters
             branches:
