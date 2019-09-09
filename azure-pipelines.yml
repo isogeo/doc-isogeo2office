@@ -14,8 +14,6 @@ jobs:
 - job: 'Build'
   pool:
     vmImage: "windows-2019"
-    demands:
-    - yarn
   
   steps:
   - task: NodeTool@0 
