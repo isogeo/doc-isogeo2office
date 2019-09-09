@@ -45,4 +45,32 @@ jobs:
     displayName: 'Publish Artifact: $(project_name)'
     inputs:
       path: $(System.DefaultWorkingDirectory)/dist
-      artifact: '$(project_name)_$(Build.SourceBranchName)_$(Build.SourceVersion)'
+      artifact: '$(project_name)_$(Build.SourceBranchName)_$(Build.Id)'
+
+  - task: AzureFileCopy@3
+    inputs:
+      SourcePath: '$(System.DefaultWorkingDirectory)/dist'
+      azureSubscription: 'Isogeo - MPN(82885610-5841-4749-8d71-46f56b643ad2)'
+      Destination: 'AzureBlob'
+      storage: 'qaisogeohelp'
+      ContainerName: '$web'
+      BlobPrefix: 'test'
+
+# PUBLISH
+# only with a tagged commit (see: https://github.com/MicrosoftDocs/vsts-docs/issues/3281)
+- job: 'Publish'
+  dependsOn: 'Build'
+  pool:
+    vmImage: "windows-2019"
+  condition:
+    contains(variables['Build.SourceBranch'], 'tags')
+
+  steps:
+  - task: GitHubRelease@1
+    inputs:
+      gitHubConnection: 'github_isogeo'
+      repositoryName: '$(Build.Repository.Name)'
+      action: 'edit'
+      target: '$(Build.Id)'
+      changeLogCompareToRelease: 'lastFullRelease'
+      changeLogType: 'issueBased'
