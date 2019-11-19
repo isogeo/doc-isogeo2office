@@ -1,6 +1,6 @@
 # Isogeo To Office documentation
 
-[![CircleCI](https://circleci.com/gh/isogeo/doc-isogeo2office.svg?style=svg)](https://circleci.com/gh/isogeo/doc-isogeo2office)
+[![Build Status](https://dev.azure.com/isogeo/Documentations/_apis/build/status/isogeo.doc-isogeo2office?branchName=master)](https://dev.azure.com/isogeo/Documentations/_build/latest?definitionId=25&branchName=master)
 
 Content, structure and media of the website documentation. It's part of the Isogeo online documentations ([see Github repositories](https://github.com/search?q=topic%3Adocumentation+org%3Aisogeo&type=Repositories)).
 
