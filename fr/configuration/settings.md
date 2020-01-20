@@ -84,6 +84,10 @@ ISOGEO_API_CLIENT_SECRET=
 
 ### Stockage des paramètres {#location}
 
-Les paramètres sont stockés dans la base de registre Windows : `Ordinateur\HKEY_CURRENT_USER\Software\Isogeo\IsogeoToOffice\`
+Les paramètres sont stockés dans la base de registre Windows sous l'arborescence `Ordinateur\HKEY_CURRENT_USER\Software\Isogeo\IsogeoToOffice\`, ou dans certains cas `HKEY_LOCAL_MACHINE\Software\Isogeo\IsogeoToOffice`.
 
 ![Paramètres sauvegardés dans la base de registre de Windows](/assets/settings_location_registry.png)
+
+Application and user settings are managed using [QSettings](http://doc.qt.io/qt-5/qsettings.html).
+
+> Voir [la documentation officielle de Qt](http://doc.qt.io/qt-5/qsettings.html#locations-where-application-settings-are-stored)
