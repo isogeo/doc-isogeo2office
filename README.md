@@ -22,7 +22,7 @@ It's deployed on Isogeo Azure (Storage v2 Static website) using CircleCI ([see c
 
 - each tagged commit triggers a deploy on PROD:
 
-  - <http://help.isogeo.com/isogeo2office>
+  - <https://help.isogeo.com/isogeo2office>
   - <https://prodisogeohelp.z28.web.core.windows.net/isogeo2office>
 
 ## Build

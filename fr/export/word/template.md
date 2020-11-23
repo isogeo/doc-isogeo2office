@@ -28,7 +28,7 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 * "plate" (_flat_) : une balise correspond à une valeur. Exemple : titre, résumé, mots-clés...
 * "tableau" (_array_) : la balise contient alors plusieurs valeurs qu'il faut parcourir. Exemple : attributs, spécifications, limitations, CGUs... Sauf à maîtriser la syntaxe, il est recommandé de se baser sur le modèle Isogeo.
 
-> Attention, toutes les variables ne sont pas présentes dans tous les types de métadonnées \(exemple : les attributs pour les rasters). Consulter [la correspondance sur l'aide de la plateforme](http://help.isogeo.com/fr/features/documentation/index.html).
+> Attention, toutes les variables ne sont pas présentes dans tous les types de métadonnées \(exemple : les attributs pour les rasters). Consulter [la correspondance sur l'aide de la plateforme](https://help.isogeo.com/fr/features/documentation/index.html).
 
 ### Étiquettes {#keywords}
 
@@ -46,9 +46,9 @@ Il est à noter que, en simplifiant, les balises sont de 2 types :
 
 | Variable | Champ ou valeur correspondant | Commentaires / précisions |
 | :--------------------------------------: | :--------------------------------------------------------------------------------------- | :------------------------ |
-| {% raw %} {{ varTitle }} {% endraw %}    | [Titre](http://help.isogeo.com/fr/features/documentation/md_identification.html#titre) |  |
-| {% raw %} {{ varAbstract }} {% endraw %} | [Résumé](http://help.isogeo.com/fr/features/documentation/md_identification.html#résumé) |  |
-| {% raw %} {{ varPath }} {% endraw %}     | [Emplacement](http://help.isogeo.com/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donnée) | . |
+| {% raw %} {{ varTitle }} {% endraw %}    | [Titre](https://help.isogeo.com/fr/features/documentation/md_identification.html#titre) |  |
+| {% raw %} {{ varAbstract }} {% endraw %} | [Résumé](https://help.isogeo.com/fr/features/documentation/md_identification.html#résumé) |  |
+| {% raw %} {{ varPath }} {% endraw %}     | [Emplacement](https://help.isogeo.com/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donnée) | . |
 
 ---
 
