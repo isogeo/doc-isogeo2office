@@ -60,7 +60,7 @@ D'autres paramètres peuvent être réglés
 
 ### Fichier de configuration de l'environnement {#environment_file}
 
-Dans certaines configurations avancées (notamment pour configurer nu proxy), il est possible d'utiliser un fichier de configuration d'environnement `.env`.
+Dans certaines configurations avancées (notamment pour configurer un proxy), il est possible d'utiliser un fichier de configuration d'environnement `.env`.
 
 Structure type du fichier :
 
